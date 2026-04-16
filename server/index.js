@@ -17,6 +17,19 @@ const adminRoutes = require('./routes/admin');
 
 const app = express();
 
+function normalizeOrigin(value) {
+  if (!value) return null;
+
+  const trimmedValue = value.trim();
+  if (!trimmedValue) return null;
+
+  try {
+    return new URL(trimmedValue).origin;
+  } catch (error) {
+    return trimmedValue.replace(/\/+$/, '');
+  }
+}
+
 // ======================
 // 🔐 SECURITY MIDDLEWARE
 // ======================
@@ -52,7 +65,9 @@ app.use(
     origin(origin, callback) {
       if (!origin) return callback(null, true);
 
-      if (effectiveAllowedOrigins.includes(origin)) {
+      const normalizedRequestOrigin = normalizeOrigin(origin);
+
+      if (effectiveAllowedOrigins.includes(normalizedRequestOrigin)) {
         return callback(null, true);
       }
 
