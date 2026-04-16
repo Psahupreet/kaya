@@ -1,9 +1,13 @@
+require('dotenv').config();
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const dotenv = require('dotenv');
-dotenv.config();
 const path = require('path');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
+const morgan = require('morgan');
+const compression = require('compression');
 
 const authRoutes = require('./routes/auth');
 const sqmRoutes = require('./routes/sqm');
@@ -12,6 +16,16 @@ const labRoutes = require('./routes/lab');
 const adminRoutes = require('./routes/admin');
 
 const app = express();
+
+// ======================
+// 🔐 SECURITY MIDDLEWARE
+// ======================
+app.use(helmet());
+app.disable('x-powered-by');
+
+// ======================
+// 🌍 CORS CONFIG
+// ======================
 const allowedOrigins = (process.env.CORS_ORIGINS || '')
   .split(',')
   .map((origin) => origin.trim())
@@ -20,44 +34,105 @@ const allowedOrigins = (process.env.CORS_ORIGINS || '')
 app.use(
   cors({
     origin(origin, callback) {
-      if (!origin) {
-        return callback(null, true);
-      }
-
-      if (allowedOrigins.length === 0) {
-        return callback(null, true);
-      }
+      if (!origin) return callback(null, true);
 
       if (allowedOrigins.includes(origin)) {
         return callback(null, true);
       }
 
-      return callback(new Error('Not allowed by CORS'));
-    }
+      return callback(new Error('CORS blocked'));
+    },
+    credentials: true
   })
 );
-app.use(express.json());
-// Uploaded photos are stored under `server/src/uploads/...`
-// so expose them here as `/uploads/...`.
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// routes
+// ======================
+// 🚦 RATE LIMITING
+// ======================
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 100,
+  message: 'Too many requests, please try again later.'
+});
+app.use('/api', limiter);
+
+// ======================
+// ⚡ PERFORMANCE
+// ======================
+app.use(compression());
+
+// ======================
+// 📜 LOGGING
+// ======================
+app.use(morgan('combined'));
+
+// ======================
+// 📦 BODY PARSER
+// ======================
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+
+// ======================
+// 📁 STATIC FILES (DEV ONLY)
+// ⚠️ Use Cloudinary/S3 in production
+// ======================
+if (process.env.NODE_ENV !== 'production') {
+  app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+}
+
+// ======================
+// 🚀 ROUTES
+// ======================
 app.use('/api/auth', authRoutes);
 app.use('/api/sqm', sqmRoutes);
 app.use('/api/spb', spbRoutes);
 app.use('/api/lab', labRoutes);
 app.use('/api/admin', adminRoutes);
 
-// data file route for dropdowns
+// ======================
+// 📊 OPTIONS DATA
+// ======================
 app.get('/api/options', (req, res) => {
   const options = require('./data/options.json');
   res.json(options);
 });
 
+// ======================
+// ❤️ HEALTH CHECK
+// ======================
 app.get('/api/health', (req, res) => {
-  res.json({ ok: true });
+  res.status(200).json({
+    status: 'UP',
+    uptime: process.uptime(),
+    timestamp: new Date()
+  });
 });
 
+// ======================
+// ❌ 404 HANDLER
+// ======================
+app.use((req, res) => {
+  res.status(404).json({
+    success: false,
+    message: 'API route not found'
+  });
+});
+
+// ======================
+// ❌ GLOBAL ERROR HANDLER
+// ======================
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+
+  res.status(500).json({
+    success: false,
+    message: err.message || 'Internal Server Error'
+  });
+});
+
+// ======================
+// 🗄️ DATABASE CONNECTION
+// ======================
 const PORT = process.env.PORT || 5000;
 
 async function startServer() {
@@ -68,18 +143,32 @@ async function startServer() {
       family: 4
     });
 
-    console.log('Mongo connected');
-    app.listen(PORT, () => console.log('Server running on', PORT));
+    console.log('✅ MongoDB connected');
+
+    const server = app.listen(PORT, () => {
+      console.log(`🚀 Server running on port ${PORT}`);
+    });
+
+    // ======================
+    // 🔄 GRACEFUL SHUTDOWN
+    // ======================
+    process.on('SIGINT', async () => {
+      console.log('🔴 Shutting down server...');
+      await mongoose.connection.close();
+      server.close(() => {
+        console.log('✅ Server closed');
+        process.exit(0);
+      });
+    });
+
   } catch (err) {
-    console.error('Mongo connect error:', err.message);
+    console.error('❌ MongoDB connection error:', err.message);
 
     if (err.cause) {
-      console.error('Mongo root cause:', err.cause);
+      console.error('Root cause:', err.cause);
     }
 
-    console.error(
-      'Check your Atlas URI, database name, IP access list, and local network/antivirus SSL inspection settings.'
-    );
+    process.exit(1);
   }
 }
 
