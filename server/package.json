@@ -6,6 +6,8 @@
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
     "seed-admin": "node src/seedAdmin.js",
+    "migrate:submission-photos": "node src/scripts/migrateSubmissionPhotosToCloudinary.js",
+    "migrate:submission-photos:dry": "node src/scripts/migrateSubmissionPhotosToCloudinary.js --dry-run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
