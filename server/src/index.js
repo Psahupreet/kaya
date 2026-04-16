@@ -31,16 +31,30 @@ const allowedOrigins = (process.env.CORS_ORIGINS || '')
   .map((origin) => origin.trim())
   .filter(Boolean);
 
+const defaultDevOrigins = [
+  'http://localhost:3000',
+  'http://127.0.0.1:3000',
+  'http://localhost:5173',
+  'http://127.0.0.1:5173'
+];
+
+const effectiveAllowedOrigins =
+  process.env.NODE_ENV === 'production'
+    ? allowedOrigins
+    : Array.from(new Set([...defaultDevOrigins, ...allowedOrigins]));
+
 app.use(
   cors({
     origin(origin, callback) {
       if (!origin) return callback(null, true);
 
-      if (allowedOrigins.includes(origin)) {
+      if (effectiveAllowedOrigins.includes(origin)) {
         return callback(null, true);
       }
 
-      return callback(new Error('CORS blocked'));
+      return callback(
+        new Error(`CORS blocked for origin: ${origin}`)
+      );
     },
     credentials: true
   })
