@@ -28,7 +28,7 @@ app.disable('x-powered-by');
 // ======================
 const allowedOrigins = (process.env.CORS_ORIGINS || '')
   .split(',')
-  .map((origin) => origin.trim())
+  .map((origin) => normalizeOrigin(origin))
   .filter(Boolean);
 
 const defaultDevOrigins = [
@@ -38,10 +38,14 @@ const defaultDevOrigins = [
   'http://127.0.0.1:5173'
 ];
 
+const productionFallbackOrigins = [
+  'https://incandescent-centaur-2ae88f.netlify.app'
+].map((origin) => normalizeOrigin(origin));
+
 const effectiveAllowedOrigins =
   process.env.NODE_ENV === 'production'
-    ? allowedOrigins
-    : Array.from(new Set([...defaultDevOrigins, ...allowedOrigins]));
+    ? Array.from(new Set([...productionFallbackOrigins, ...allowedOrigins]))
+    : Array.from(new Set([...defaultDevOrigins, ...productionFallbackOrigins, ...allowedOrigins]));
 
 app.use(
   cors({

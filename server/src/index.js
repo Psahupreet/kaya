@@ -48,16 +48,17 @@ const defaultDevOrigins = [
   'http://localhost:3000',
   'http://127.0.0.1:3000',
   'http://localhost:5173',
-  'http://127.0.0.1:5173',
-  'https://kaya-lyb0.onrender.com/api',
-  'https://incandescent-centaur-2ae88f.netlify.app'
-
+  'http://127.0.0.1:5173'
 ];
+
+const productionFallbackOrigins = [
+  'https://incandescent-centaur-2ae88f.netlify.app'
+].map((origin) => normalizeOrigin(origin));
 
 const effectiveAllowedOrigins =
   process.env.NODE_ENV === 'production'
-    ? allowedOrigins
-    : Array.from(new Set([...defaultDevOrigins, ...allowedOrigins]));
+    ? Array.from(new Set([...productionFallbackOrigins, ...allowedOrigins]))
+    : Array.from(new Set([...defaultDevOrigins, ...productionFallbackOrigins, ...allowedOrigins]));
 
 app.use(
   cors({
