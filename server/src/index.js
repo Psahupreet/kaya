@@ -26,9 +26,22 @@ app.disable('x-powered-by');
 // ======================
 // 🌍 CORS CONFIG
 // ======================
+function normalizeOrigin(value) {
+  if (!value) return null;
+
+  const trimmedValue = value.trim();
+  if (!trimmedValue) return null;
+
+  try {
+    return new URL(trimmedValue).origin;
+  } catch (error) {
+    return trimmedValue.replace(/\/+$/, '');
+  }
+}
+
 const allowedOrigins = (process.env.CORS_ORIGINS || '')
   .split(',')
-  .map((origin) => origin.trim())
+  .map((origin) => normalizeOrigin(origin))
   .filter(Boolean);
 
 const defaultDevOrigins = [
@@ -48,7 +61,9 @@ app.use(
     origin(origin, callback) {
       if (!origin) return callback(null, true);
 
-      if (effectiveAllowedOrigins.includes(origin)) {
+      const normalizedRequestOrigin = normalizeOrigin(origin);
+
+      if (effectiveAllowedOrigins.includes(normalizedRequestOrigin)) {
         return callback(null, true);
       }
 
