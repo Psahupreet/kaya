@@ -1,0 +1,982 @@
+{
+  "divisions": [
+    "BHOPAL",
+    "NARMADAPURAM"
+  ],
+  "districtsByDivision": {
+    "BHOPAL": [
+      "Bhopal",
+      "Raisen",
+      "Sehore",
+      "Rajgarh",
+      "Vidisha"
+    ],
+    "NARMADAPURAM": [
+      "BETUL",
+      "HARDA",
+      "NARMADAPURAM"
+    ]
+  },
+  "ulbsByDivisionAndDistrict": {
+    "BHOPAL": {
+      "Bhopal": [
+        "NAGAR PALIKA BERASIA",
+        "NAGAR PALIKA NIGAM BHOPAL"
+      ],
+      "Raisen": [
+        "NAGAR PARISHAD gairatganj",
+        "NAGAR PARISHAD DEORI",
+         "NAGAR PALIKA MANDIDEEP",
+         "NAGAR PARISHAD OBDULLAGANJ",
+         "NAGAR PARISHAD BADI",
+         "NAGAR PARISHAD SULTANPUR",
+         "NAGAR PARISHAD UDAIPURA",
+         "NAGAR PARISHAD BARELI",
+         "NAGAR PALIKA BEGAMGANJ",
+         "NAGAR PARISHAD SILWANI",
+         "NAGAR PARISHAD SANCHI",
+         "NAGAR PALIKA RAISEN"
+
+      ],
+      "Sehore": [
+        "NAGAR PARISHAD JAWAR",
+        "NAGAR PARISHAD NASRULLAGANJ",
+        "NAGAR PARISHAD REHTI",
+        "NAGAR PARISHAD SHAHGANJ",
+        "NAGAR PARISHAD BUDHNI",
+        "NAGAR PARISHAD ICHHAWAR",
+        "NAGAR PARISHAD KOTHERI",
+        "NAGAR PALIKA ASHTA",
+        "NAGAR PALIKA SEHORE,BHOPAL"
+        
+      ],
+      "Rajgarh": [
+        "NAGAR PARISHAD MACHALPUR",
+        "NAGAR PARISHAD CHAPIHEDA" ,
+        "NAGAR PARISHAD KURAWAR",
+        "NAGAR PALIKA biaora",
+        "NAGAR PARISHAD PACHOOR",
+        "NAGAR PARISHAD KHUJNEER",
+        "NAGAR PALIKA RAJGARH" ,
+        "NAGAR PARISHAD SUTHALIYA",
+        "NAGAR PARISHAD TALEN",
+        "NAGAR PARISHAD BODA",
+        "NAGAR PALIKA NARSINGHGARH",
+        "NAGAR PARISHAD jEERAPUR",
+        "NAGAR PARISHAD KHILCHIPUR",
+        "NAGAR PALIKA SARANGPUR"
+      ],
+      "Vidisha": [
+        "NAGAR PARISHAD  SHAMSHABAAD",
+        "NAGAR PALIKA SIRONJ",
+        "NAGAR PARISHAD LATERI",
+        "NAGAR PARISHAD KURWAI",
+        "NAGAR PALIKA GANJBASODA",
+        "NAGAR PALIKA VIDISHA"
+      
+      ]
+    },
+    "NARMADAPURAM": {
+      "BETUL": [
+        "NAGAR PALIKA MULTAI",
+        "NAGAR PALIKA SARNI",
+        "NAGAR PARISHAD GHORA DONGRI",
+        "NAGAR PARISHAD SHAHPUR,BETUL",
+        "NAGAR PARISHAD CHICHOLI",
+        "NAGAR PARISHAD BHAINSDEHI",
+        "NAGAR PALIKA AMLA",
+        "NAGAR PARISHAD BETUL BAZAR",
+        "NAGAR PARISHAD ATHNER",
+        "NAGAR PALIKA BETUL"
+      ],
+      "HARDA": [
+        "NAGAR PARISHAD SIRALI",
+        "NAGAR PALIKA HARDA",
+        "NAGAR PARISHAD TIMARNI",
+        "NAGAR PARISHAD KHIRKIYA"
+      ],
+      "NARMADAPURAM": [
+        "NAGAR PARISHAD BANKHEDI",
+        "NAGAR PARISHAD MAKHAN NAGAR",
+        "NAGAR PARISHAD SUHAGPUR",
+        "NAGAR PALIKA PIPARIYA",
+        "NAGAR PALIKA SEONI MALWA",
+        "NAGAR PALIKA ITARSI",
+        "NAGAR PALIKA NARMADAPURAM"
+
+      ]
+    }
+  },
+  "projectsByULB": {
+    "NAGAR PALIKA BERASIA": [
+      "KAYAKALP 2.0_Construction of bituminous road from Ward No.1 Milak Road to Kitkhedi Road.",
+      "KAYAKALP 2.0_Construction of CC road from Ward No. 11/12 Zahoor's house to the court.",
+      "CC Renewal Coat Work in Ward No. 3/4 from Bagiya Mandir to College Tiraha Main Road_01",
+      "CC Renewal Coat Work in Ward No. 16/17 from Shaktiman Chouraha Main Road and Bus Stand_02",
+      "2. CC Renewal Coat Work in Ward No. 16/17 from Shaktiman Chouraha Main Road and Bus Stand_02"
+    ],
+    "NAGAR PALIKA NIGAM BHOPAL": [
+      "KAYAKALP 2.0_Road construction from Shani Mandir to Ruchi Life Scape",
+      "Zone 17 Ward 79 Navibag Road, Maurya Colony, Yadav Basti, Dangi Colony, Maya Enclave and Radhakrishna Colony in C C. Road",
+      "Zone 17 Ward 78 79 Super State, Krishna Nagar, Janta Nagar Phase-2, Karma Devi Mandir C.C. Road",
+      "Zone 17 Ward 75 Construction of CC road from Pawan Homes to Kashi Vishwanath Temple",
+      "Zone 17 Ward 75 & 76 Badwai, Gwal Baba, Raj Nagar Gali no. 2 and 3, CC road in Karma Nagar, Satyagyan, Sunder Nagar and Garib Nagar",
+      "zone 15 ward no. Asphalting work of road from Jain Bhawan to Milka Singh Sports Ground in Sector",
+      "Zone 15 Ward No. 66 Karamveer Nagar Delhi Grocery Store to Sai Pathology Construction work of Sinsi road in Sector",
+      "Zone 15 Ward 64 Road Asphalt work from DK Tower to Satnami Nagar",
+      "Zone 15 Asphalt work from Kuber Dairy to Chani Tiles Sonagiri C.Sector",
+      "Zone 13 ????? 55 CC road construction from Hariprasad Sahus Ghgyar to Nikhil Sonani to Yadav jis house in Amrai",
+      "Zone 13 Ward-53 Rameshwaram Colony Prospera Society From Sharda Vihar to Arvind Vihar Main Road Guard Room No. 95 Asphalt work in front of ND Sharmas house up to the main road and from Rameswaram Deluxe to Parthasarathy to Gayatri Vihar Phase-3",
+      "Zone 13 Ward 55 Near Vishwakarma Mandir CC road construction work from Taniya general store to house no 119 and government building",
+      "Zone 13 ward 55 Amrai mann.570 to 567 and Shanu vehicle house construction work",
+      "Zone 13 ward 54 Sinsin road between Amrai and Emerald park 33.. Zone 13 ward",
+      "Zone 13 Ward 54 Saket Nagar 9. And 9. Road asphalting in L",
+      "Zone 13 Ward 53 Vidya Nagar. Road asphalting work in E and B sector",
+      "Zone 13 Ward 52 Road asphalting from behind Misrod village to Hoshangabad road overhead tank; 750.00 Meendh & C.; 350 Meendh",
+      "Zone 13  13 Ward 53 From Sant Asharam Nagar to Shikshak Congress Colony to BHEL Sang Chauraha on both sides and BHEL Sangam to Surendra Vihar Mandir and M.N. Road Asphalt work from 141 to 281 from Kundan Nagar and Ashima Mall to Priyadarshini Paramount Colony Gate on the main road",
+      "Zone 13   Ward 55 Near Vishwakarma Mandir CC road construction work from Taniya general store to house no 119 and government building",
+      "Zone 12 Ward 59 Asphalting of old city and surrounding roads from Vishramghat",
+      "KAYAKALP 2.0_Zone 12 Ward 58 Asphalting of main road and surrounding roads of Janata Quarter",
+      "Zone 12 Ward 58 Asphalting of Kailash Nagar, Bharati Niketan, Shanti Niketan internal road and surrounding roads",
+      "Zone 12 Ward 44 Sanchi Parlor to RP Sharma 64 and Zero Gaming Shop to St. Thomas Church Homes 1 Asphaltization to Govind Garden",
+      "Zone 12 Ward 44 Roshan Hospital to Geeta Mansion Plot no. Asphaltization in 40",
+      "Zone 12 Ward 44 Opposite Maheshwari Medical Opposite Gulab Cottage Via Minal Complex till Garden View 38 Asphaltization to Govind Garden",
+      "Zone 12 Ward 44 Mehta Market to Kalyani School Old Subhash Nagar and surrounding roads asphalted",
+      "Zone 12 Ward 44 Abhiruchi Main Road Dynamic School, Old Subhash Nagar and surrounding Asphalting of roads of",
+      "Zone 07 Ward 34 Jhada Kabristan Asphalting of road from",
+      "Zone 07 Ward 34 Asphalting work from Chiklod Road to Meat Market and Old SBI and adjacent road",
+      "Zone 06 Ward 51 Asphalting work in Shahpura B and C. Sector",
+      "Zone 06 Ward 48 CC Road Construction from Ward Office to Lovedale School",
+      "ZONE 06 WARD 47 PANCHSHIL NAGAR MAIN ROAD NO. Asphalting of road from 2 to eight shops",
+      "Zone 05 Ward No.08 Asphalt work at various places under.",
+      "Zone 05 Ward No. 09 Kali Basti Asphalt work till Lal Masjid Road.",
+      "Zone 04 Ward-18 CC Road Behind Manohar Dairy Mandi Road Near Ram Mandir",
+      "Zone 04 Ward 20 Road asphalting work from Khajuraho Ghee Bhandar to Gattanis house and from Jain temple to Rajkumar Patels house and in front of Gattanis house",
+      "Zone 04 Ward 07 Construction of CC road from Berasia Main Road to Tower and from Arif Nagar Bridge to Arif Nagar",
+      "Zone 04 Asphalt work from Sahara Complex to Gali No. 13 under Ward No. 16.",
+      "Zone 04 04 Asphalt work behind Manohar Dairy from Mrignaini Showroom to Gurdwara Chauraha under Ward No. 18",
+      "Zone 03 Ward 13  Asphalt on Resham Kendra Road",
+      "Zone 03 Ward 12 From Takshsil College to Buse Ki Tall CC",
+      "Zone 03 Ward 12 Durga Mandir to Gali no. Asphalt work in Naryakkheda till 31st",
+      "Zone 03 Ward 11 Briright Colony Idgah Hills",
+      "Zone 02 Ward 21 Dayanan Chowk to Jain Mandir Road Corner",
+      "Zone 02 Ward 07 From Imperial Saver Hotel to Sufia Masjid",
+      "Zone  13 WardZ 55 CC road work from Man Singh Jatavs house in Ward 55, Amrai in front of Mahesh Piparde and Pramod Kirana Store",
+      "Zone  04 CC road construction work from JK Tire to Sanjivani under Ward No. 17 in front of Babul Shaadi Hall junkyard",
+      "Zone  04  and near Hanuman Ganj police station 18 04 Ward 16 Ahle Hadees Masjid Asphaltization from",
+      "Ward No. 37 Zone No. 09 Vijay Nagar, Bapu Colony, Durga Nagar Semra Gate, Cloth Mill, Purushottam Nagar Phase-2 Semra Kalan, Rajeev Nagar, Rajveer Nagar, Semra Sabzi Mandi Chauraha Near Khushipura C.C. Road Construction Work, Krishna Nagar, Rajendra Nagar, Kararia Dwarka Nagar C.C. Road Construction",
+      "Ward No. 36,38 Zone No. 09 Purushottam Nagar, Purushottam Nagar Phase-1 New Rajeev Nagar, Rajeev Nagar, Shankar Garden, Sundar Nagar, Subhash Colony, Ektapuri, Sairam Colony Semra, Ekta Colony, Laxmipuri Hinautia, Shiv Nagar Hinautia, C. C. Road construction work.",
+      "ward no 12 Me Mehta marriage garden se Bhaddu Rathore ke makan se hote huye Bus Stand  Pahuch Marg_02",
+      "Ward 79 Zone 17 Asphalting in the streets of Karod Village, Roop Nagar, Shanti Nagar, Jai Nagar, Panchavati Phase-3, Shivani Homes and Rajvansh",
+      "Vijay Nagar Police Chowki Inner Road Durga Nagar Bapu Colony Khushipura and surrounding areas",
+      "Strengthening of approach roads (CC roads) from OHT to C- Sector Subhash Colony to Govindpura Industrial Warrior and Sunder Nagar Dashmesh Nagar Subhash Colony Shankar Garden Pragati Nagar Gupta Colony Samrat Colony Shaubhagya Nagar Ward No. 70 and 71",
+      "Station Road to Bhopal Academy Santoshi Mata Mandir to Hinotia CC Road",
+      "Shanti Homes Main Road Asphalt work",
+      "Pooja Colony, Goya Colony, Main Road and Crash Road and surrounding Roads",
+      "Piplia Paide Khaw from Sh.School to Sheefa Clinic and CC in various places. road work.",
+      "Peepal Square to Aditya Gyan School Hote Russalli Asphaltization and surrounding roads",
+      "Near Madhav Bal Ughan in Saket Nagar, CC in M.No.290-2C and 206-2C. Road construction work.",
+      "From Vimal Nursing Home to Idgah Chhoti Masjid Zone 02 Ward 10",
+      "From Padmanabh Nagar Main Road to Mata Madiya in Badwala Mohalla, CC. road work.",
+      "FCI Godam to Navjeevan Main Road Eshankar Nagar Echholaidshahra Maidan Asphaltization road construction work",
+      "Construction work of CC road from Shanti Nagar Main Road to Jai Nagar Rupnagar and surrounding roads",
+      "CC road work from Vijay Vishwakarma to Ranjits house in Shyam Nagar.",
+      "CC road work from Shiv Mandir to Rameshchandras house in Shyam Nagar.",
+      "CC road work from Bunty Malviya to Shiv Mandir in Shyam Nagar",
+      "CC road construction work in Zone 13 Ward 54 Saket Nagar 9B",
+      "CC road construction work in Nayapura Agwal Baba main road and Gokuldham Gopalpura main road and Durga Nagar",
+      "CC in Padmanabh Nagar Slum Area. Road construction work.",
+      "CC in Ekta Nagar slum area. road work.",
+      "Bhairopur Construction work of approach road",
+      "Asphaltization of road at 11 no. M622 to Arera in front of Convent School Kuber Dairy and Gokul Dairy to Bhopal Blood Bank E 6 Arera Colony Ward 49 Zone 10",
+      "Asphaltization from Zone 07 Ward 34 Amin Flour Mill to Gas Rahat Hospital",
+      "Asphalting of road from E6.101 to 81A E6.74 to 39 M6.121 to 132 Arera Colony",
+      "Asphalting of road from E.7694 to E.785 and E.780 around M.784 Park Ward",
+      "Asphalt work of Jain sweets from Zone 05 Ward No. 22 Ginnauri Road Ward Office to Masjid Pari Ghat and Dr. Katare.",
+      "Asphalt work from Zone 04 Ward 20 Dr. Anwar Shop to Qalandar Masjid and Sefiya Masjid to New Fashion Design",
+      "Asphalt work from Zone 03 Ward 11 Master Lal Singh Hospital to Bindas Gift Center and Arif Masood Fence Club to Sulabh Toilet",
+      "Asphalt work from front of Yadav Dugdh Dairy Abroad School to Sunder Nagar Park and Pragati Nagar to Shahanshah Garden Road.",
+      "Asphalt work from Dussehra Maidan to Shiv Mandir",
+      "Ashoka Garden Ashok Vihar Bank Nagar Old Ashoka Garden Elala Lajpat Colony and Ward 69 Various roads in and around",
+      "Alkapuri in M.N. Asphalt work from 102 B to Main Gate",
+      "Abhishek Phool Bhandar to Green Valley School in Sarvdharma C Sector Construction work of approach road till. Construction work of approach road of Ward 82 Zone 18",
+      "Zone 15 Ward No. 67 Sinsi road in various places under Laxmi Nagar, Rajat Nagar and Sunder Nagar Construction work",
+      "Wardza 15 Construction of CC Road from Choksey Nagar Main Road to Garden under Zone No. 04",
+      "Electricity Colony Prakash Nagar Main Road and Internal Roads"
+    ],
+    "NAGAR PALIKA BEGAMGANJ": [
+      "KAYAKALP 2.0_CC Road construction work from Sagar Bhopal Road to Chorabavadi in Ward 03",
+      "KAYAKALP 2.0_CC road construction work from Babulala Panthi's house to Jugal Rai's house in Ward 10.",
+      "KAYAKALP 2.0_CC Road from Kaju Gupta to Ravir Singh's house in Ward 16.",
+      "KAYAKALP 2.0_CC road from Baba Ramdas Ashram to Ashish Raikwar's house in Ward 18.",
+      "KAYAKALP 2.0_CC Road from Ramesh Sahu's house to Lal Dukan Grocery in Ward 17.",
+      "KAYAKALP 2.0_CC Road from Motia Kua to Kabit Square in Ward 12 7",
+      "KAYAKALP 2.0_CC Road from Jama Masjid Gate to Jagdish Mandir in Ward 1",
+      "KAYAKALP 2.0_CC Road from Kabit intersection to Tariq Khan's house in Ward 6.",
+      "KAYAKALP 2.0_Construction of CC road from bus stand to Shiv Mandir Hanuman Bagh Colony in Ward 12.",
+      "KAYAKALP 2.0_CC Road from Sultanganj Road to Karan Singh's house in Ward 4.",
+      "5.STERGTHENING OF CC ROAD AT WARD NO 14 FROM GAMBHIRYA MANDIR/COMMUNINY HALL TOWARDS GOVT SCHOOL AND JAIL  CONNECTING TO MAIN BHOPAL SAGAR HIGHWAY_05",
+      "2.STERGTHENING OF CC ROAD AT WARD NO 03 ROAD AT STARTS FROM MAHINDRA THAKUR TOWARD PUBLIC PLACE MAIN ROAD VIA AGANBADI CENTER AND MANGAL BHAWAN_02",
+      "8. STERGTHENING OF CC ROAD AT WARD NO 12 ROAD STARTS FROM NEELU DUBEY HOUSE AND CONEECTING TO MAIN BHOPAL SAGAR HIGHWAY_08",
+      "7. BITUMINOUS   OVERLAY ON EXISTING CC ROAD AT WARD 04 FROM SAGAR MAL KI PULIYA LOCATED BHOPAL SAGAR HIGHWAY TOWARDS ANOTHER POINT ON SAGAR HIGHWAYS VIA KANJI KUA MANDIR AND FILTER PLANT_07",
+      "6. BITUMINOUS   OVERLAY ON EXISTING CC ROAD AT WARD 18 ROAD STARTS FROM GANESH MANDIR SITUTED AT BHOPAL SAGAR HIGHWAY TOWARDS OMKAR YADAV HOUSE_06",
+      "4.BITUMINOUS   OVERLAY ON EXISTING CC ROAD AT WARD 08/05 ROAD STARTS FROM BHOPAL SAGAR HIGHWAY AND ENTERS IN MAIN MARKET ROAD_04",
+      "3. BITUMINOUS   OVERLAY ON EXISTING CC ROAD AT WARD 04 ROAD STARTS FROM AMOL PRAJAPATI HOUSE AND ENDS AT SHRI RAM HOTAL SITUATED AT MAIN BHOPAL SAGAR HIGHWAY VIA GOVT AGANWADI CENTER_03",
+      "1.BITUMINOUS   OVERLAY ON EXISTING CC ROAD AT WARD 15/09  ROAD STARTS FROM GOVT SCHOOL HADAIPUR VIA DURGA MANDIR CHOURAHA AND OPENS AT BHOPAL SAGAR HIGHWAY AND FROM DURGA MANDIR CHOURAHA TOWARDS BHOPAL SAGAR HIGHWAY._01"
+      
+    ], 
+    "NAGAR PALIKA ASHTA": [
+      "KAYAKALP 2.0_CC Road construction work near Sangam Temple in Ward No. 18.",
+      "KAYAKALP 2.0_CC road construction work from KP Vishwakarma's house to Ramesh Jain's house in Ward No. 17.",
+      "KAYAKALP 2.0_Powers Block construction work in Ward No.15 Officer Colony.",
+      "KAYAKALP 2.0_CC road construction work in Valmiki Nagar and internal streets in Ward No. 14.",
+      "KAYAKALP 2.0_Ward no. 13 Drain construction work from Ambedkar Bhawan to temple in Hathi Khana and behind CC Road and Ambedkar Bhawan at other places.",
+      "KAYAKALP 2.0_CC Road construction work from Takt Singh's house to Pragati Gali and Santosh Malviya's house in Ward No. 12.",
+      "KAYAKALP 2.0_CC Road construction work from Ward No. 10 Jumma Masjid to Jamatkhana and internal streets.",
+      "KAYAKALP 2.0_CC Road construction work from Naushe Qureshi's house to Zafar Qureshi's house in Ward No.5.",
+      "KAYAKALP 2.0_CC road construction work from HP Petrol Pump Jitendra Fauji's house to Surendra's house in Ward No. 2.",
+      "KAYAKALP 2.0_Construction work of CC Road on the banks of river Parvati from post mortem room in Ward No. 01.",
+      "KAYAKALP 2.0_Ward no. 15 CC Road construction work in Subhash and Malviya Nagar S-1, S-2, S-3.",
+      "KAYAKALP 2.0_Ward no. In 02, construction work from DP to Patel Garden and from DP to CC Road behind Namdev's house.",
+      "KAYAKALP 2.0_Ward no. CC road construction work from 16 Mughali Road to swimming pool and other roads",
+      "KAYAKALP 2.0_CC Road construction work in Anjani Nagar in Ward No. 16",
+      "Ward no. 16 mewada colony me target institute to pushpak house tak- CC Road_13",
+      "Ward no. 15 malviya nagar me ambedkar bhawan to kishore master saab tak- CC Road_12",
+      "Ward no. 13 black bhawan to vashisth gali tak-CC Road_03",
+      "Ward no. 11 and 17 ke madhya hospital to budhwara road to chaurasiya tv tak- BT Road_09",
+      "Ward no. 1 dudh deri to martinet school, eidgah to jain mandir road to main road tak- CC Road_08",
+        "Ward no. 16 post office road to A-1 to A-2 tak- CC Road_02",
+      "Ward no. 7 tekri masjid ke piche bavdi to aatu ke ghar tak- BT Road_18",
+      "Ward no. 6, 8, 9 gileti chouraha par- CC Road_05",
+      "Ward no. 5 handpump to kasaipura and jhalapir masjid to jama masjid, A-1 to A-2 tak BT Road_16",
+      "Ward no. 4 Panchayati bada to gileti chouraha, handpump to panchayati bada and panchayati bada to rajpura road tak- BT Road_04",
+      "Ward no. 4 anganwadi 11 to shankar mandir road and URS ground tak- BT Road_17",
+      "Ward no. 17 DP to uco bank to siddharth hospital tak- BT Road_07",
+      "Ward no. 16 Kannod road to kala talab ki paal tak_BT_01",
+      "Ward no. 16 colony chouraha to semnary road- BT Road_06",
+      "Ward no. 15 gopal engineer PWD office to khandelwal house to tol kanta tak- BT Road_10",
+      "Ward no. 15 bhimpura road to BRC road mandir tak- BT Road_11",
+      "Ward no. 15 bajrang colony me siddhivinayak dudh deri to rajshri collage road to DJ sound tak- CC Road_14",
+      "Ward no. 14 vachnalay to ramdev mandir tqk - BT Road_15"
+    ],
+
+    "NAGAR PALIKA MANDIDEEP": [
+      "KAYAKALP 2.0_CC from National Highway to Sanjay Pal's house in Ward No. 2. Renewal construction work",
+      "KAYAKALP 2.0_CC from depot to Kanhaiya's house in ward number 10. renewal construction work",
+      "KAYAKALP 2.0_Ward No. 12: From Golden Curry School to Jain Temple, from Shreeji Hotel to Bengali Mandir, from Maa Rajeshwari Clinic to Chauhan Medical, from near the shelter site to Yashpal Meena's shop and from Devraj Sen's house to Madhav Lodhi's house, C.C. Renewal and widening construction work",
+      "KAYAKALP 2.0_In ward number 23, CC Road construction work from Santosh Chaur's house to Komal Bai Raikwar's house, from Ganesh Bisre's house to Lakshmi Narayan Tiwari's house and Lakhan Mohane Wali Gali and Babban Wankhede Gali.",
+      "KAYAKALP 2.0_Construction work of CC road till Bhanwar Singh's house in Ward Number 25 Simrahi and Jamna Prasad's house in Service Lane of National Highway.",
+      "KAYAKALP 2.0_Ward number 17, Lorka Piplia, from Chetan Nagar house on the main road to Gandhi Chabutra, C.C. renewal construction work",
+      "KAYAKALP 2.0_CC road construction work from main road to Anganwadi in ward number 24 Pipliya Gajju.",
+      "KAYAKALP 2.0_CC road construction work from main road to Santosh Malviya's house in ward number 24 Pipliya Gajju.",
+      "KAYAKALP 2.0_Ward number 16: CC road construction work from Kishan Lal Pal's house to Ghanshyam's house, from Kishan Lal Pal's house to Ganesh temple and from Suresh Ahirwar's house to Radheshyam Kewat's house.",
+      "KAYAKALP 2.0_In ward number 5, railway crossing from near Salman Ali's office to cemetery gate, C.C. renewal construction work",
+      "KAYAKALP 2.0_In ward number 4, from Deepak's house to Anand Tomar, from Radha Krishna temple to Rajkumar Maithil's house, C.C. renewal construction work",
+      "4. Ward no. 25, Itaya kalan main road (dhani ram mandole’s house) to government school itaya kalan main road _04",
+      "3. ward No. 23, Sheetal dham homes gate to Akansha nagar square strengthening and widening work and Akansha nagar square to Dahod main road new road_03",
+      "2. Ward no. 17, Prem photo studio near ambition school to government school satlapur main road_02",
+      "1. Ward no. 11, Mangal bazar main road (Shikha hotel) to fire station main road via proposed auditorium _01"
+    ],
+    "NAGAR PALIKA RAISEN": [
+      "KAYAKALP 2.0_From Bhopal Sagar Junction to Mr. Bhujbal's house in Ward Number 13.",
+      "KAYAKALP 2.0_ Ward no. In 12, from Agarwal Hardware to Mr. Lalla Agarwal's house and from Yash Computer to Mr. Mahesh Soni's house.",
+      "KAYAKALP 2.0_ Ward no. From Naveen Sabzi Mandi to Mr. Saudan Lodhi's house in 17",
+      "KAYAKALP 2.0_ Ward no. On 14th, from Reliance office to Rambabu Mahawar's house, from Mrs. Hemlata Vishwakarma's house to Jitendra Raikwar's house and from Shri Babulal Jatav's house to Shri Munna Vishwakarma's house.",
+      "KAYAKALP 2.0_ Ward number 08 from Hanuman temple complex to Raju Sen's shop.",
+      "KAYAKALP 2.0_ Ward No. 13, from Shambhu Singh Dhakad's house to Avatika Colony Gate.",
+      "KAYAKALP 2.0_ Ward no. From Bhopal Sagar Junction to Kaluram Vishwakarma's house in 13th",
+      "KAYAKALP 2.0_From Bhatore ji's house to Vishal Singh's house in ward number 11.",
+      "Cement Concrete Renewal Coat in Ward No. 13 from Sagar- Bhopal Road Junction to Laxmi Narayan and Taj Mahal Umrao House to Nanne Upadhyaya House_03",
+      "Construction of Cement Concrete Road in Ward No. 11 from Sagar-Bhopal Road Junction to Narayan Prasad House_02",
+      "Construction of Cement Concrete Road in Ward No. 1 Daulat Lodhi House to Filter Plant New Bypass Junction_01",
+      "Cement Concrete Renewal Coat in Ward No. 14 from Sagar-Bhopal Road Junction Infront of Patandev Mandir to Shamshanghat Gate_04"
+    ],
+    "NAGAR PARISHAD BADI": [
+      ".KAYAKALP 2.0_CC road and RCC drain construction work from Chandan Singh's house to Dam Road.",
+      "KAYAKALP 2.0_From Rameshwar's house in Ward 15 to Dam Road",
+      "Cement Concrete Road from Hinglaj Gate Chintamani Chouraha to Hinglaj Mandir"
+
+    ],
+    "NAGAR PARISHAD BARELI": [
+      "KAYAKALP 2.0_For asphalting of the house of Shri Shivnarayan Rai from Jain Munisagar Gate in Bareilly Ward No. 09 from Tehsil Office.",
+      "KAYAKALP 2.0_CC road construction work from RBL Bank to Chaturbhuj Dhakad.",
+      "KAYAKALP 2.0_ CC Road construction work from Nahar Colony to Pipariya Road Graveyard to Old NH 12.",
+      "KAYAKALP 2.0_ WBM Road construction work from Kingi Road to Pipariya Road in Ward 7.",
+      "Cement Concrete and Bituminious Road from Old NH 12 to Prakash Raghuwanshi House, Prakash Raghuwanshi House to Hanuman Gadi Tiraha to Muktidham Gate"
+    ],
+    "NAGAR PARISHAD DEORI": [
+      "CC strengthening work from Ward No. 07 Purshottam Gupta to Manak Chowk Ward No. 09.",
+      "KAYAKALP 2.0_CC strengthening road work from ward number 07 Purshottam Gupta to Manak Chowk ward number 09"
+    ],
+    "NAGAR PARISHAD gairatganj": [
+     "sabji mandi to hanuman mandir ward no. 9",
+     "jain medical se hanuman mandir tak ward no. 9",
+     "KAYAKALP 2.0_Construction work of CC road and RCC drain from Gandhi Chowk to Rajesh Sharma's house in Ward No. 4, 5, 6, 7, 8 and 9."
+],
+    "NAGAR PARISHAD OBDULLAGANJ": [
+      "KAYAKALP 2.0_In the streets of ward number 10,11,12",
+      "Bituminious Renewal in Ward no. 2 from Main Road to Proposed Auditorium and in Ward No. 6-7 from Puliya to Proposed Govt. Hospital (Bhopal Narmadapuram Highway)_02"
+    ],
+    "NAGAR PARISHAD SANCHI": [
+      "KAYAKALP 2.0_Construction work of CC road from main road to Kamlesh's house in Ward 11.",
+      "KAYAKALP 2.0_Construction of CC road from Post Office to Veeru Patel in Ward 08.",
+      "KAYAKALP 2.0_Construction of CC road from Post Office to Motia Kuva in Ward 07,08.",
+      "KAYAKALP 2.0_CC Road construction work from Gulgaon Road to Pyarelal Hadsaab in Ward No. 02,03,04.",
+      "Cement Concrete Road in Ward No. 13 at Bus Stand Parisar NH to Railway Station Road_01"
+
+    ],
+    "NAGAR PARISHAD SILWANI": [
+    "KAYAKALP 2.0_Ward no. 06 CC from Filter Plant to Shakir Bhai Hotel. Snuvil coat manufacturing work.",
+    "KAYAKALP 2.0_Ward no. 05 Faizal Ali to tea shop C.C. Renewal coat construction work",
+    "KAYAKALP 2.0_Ward no. 01 CC from Mahoba Yadav's house to near Ram Mandir. Renewool coat manufacturing work.",
+    "KAYAKALP 2.0_Ward no. CC Renewal coat construction work from Ishan Pathan's house to Bilala Masjid tin shed in 06.",
+    "KAYAKALP 2.0_Ward no. In 06/08 CC from Kasai Mandi to Noor Bhai's house. Renewal coat construction work.",
+    "KAYAKALP 2.0_Ward no. From Shamim shop to Irshad Ali's house in 06 C.C. Renewal coat construction work.",
+    "KAYAKALP 2.0_CC renewal coat construction work from Society Building to Ripta in Ward No. 02",
+    "Cement Concrete Renewal Coat in Ward No.4 from Rashid Shop to Laik House_03",
+    "Bituminous Road in Ward No. 5, 6, 9, 10, 11, 12 from Gandhi Chabutara to Badi Masjid to Chhoti Puliya Julus Road_",
+    "Bituminious Road in Ward No. 14 from Pushpa Vidyalaya to Janki Kushwah House_02"
+    ],
+    "NAGAR PARISHAD SULTANPUR":[
+           "KAYAKALP 2.0_Drain construction work from Shri Radhakrishna Advani's house to Dussehra Maidan and Kaluram Jatav's house in Ward 14",
+           "KAYAKALP 2.0_CC Road from Shri Radhakrishna Advani's house to Dussehra Maidan and Kaluram Jatav's house in Ward 14.",
+           "KAYAKALP 2.0_Construction of CC road from Kapil Mobile shop to Bhavani Garments between Ward 7 and 9.",
+           "C.C. Renewal work from Gurudwara, Ward 1 to Ram mandir, ward 7, Sultanpur."
+    ],
+    "NAGAR PARISHAD UDAIPURA":[
+      "KAYAKALP 2.0_Under Kayakalp Abhiyan 2.0 (Second Phase), CC from Ward Number 05 Swagat Gate Naveen Bus Stand to Fountain Ward Number 07. renewal coat work",
+      "STRENGTHENING OF CC ROAD ON EXISTING CC FROM GALLA BAZAAR TO NH45 WARD NO 08 BRAHMANAGAR ROAD"
+
+    ],
+    "NAGAR PARISHAD JAWAR":[
+      "Construction work of CC road from main CC road VIA school to Khedaapati Hanuman temple in ward no. 11 and 15.",
+      "Construction of C.C. road in ward number 07 on the main road, ward number 08 near Shastri Public School and ward number 09 near Bahadur Parihar's house.",
+      "Construction of C.C. road from main road to government girls hostel in ward no. 06 and from Ranjanwadi colony to main road in ward no. 07",
+      "KAYAKALP 2.0_CC road construction work from Deep Jyoti School to Anil Gaur's house in Ward No. 08.",
+      "Construction of cc road work in ward 03 from main road to muktidham & Ambedkar park, market area jawar_02",
+      "Construction of cc road work in ward 03 from puliya to main road ,govt hospital,school approach_01"
+    ],
+    "NAGAR PARISHAD NASRULLAGANJ":[
+      "Ward no.15 from Girdhan Soni's house to Bhavarpar's house.",
+      "Ward no.15 from Laxman ji's house to Digoria ji's house on Narmada Colony Road.",
+      "Ward no.15 from Rajesh Rathore's house to Jhule Lal's house.",
+      "Ward no.15 from Neelkanth Dal Mill to Munna Colony.",
+      "Ward no. 14: From Shri Rajendra Pawar's house to Shri Bhagwat Keer's house, C.C. Road construction.",
+      "Ward no. 14: From Bapu Colony to TVS Showroom via Om Malviya's house.",
+      "Ward no. 13: From Pramod Yadav's house to Ramesh Malviya's house.",
+      "In ward no. 12 from Munira's field to Gudd Vakil's field.",
+      "In ward no. 12 from Manohar Singh's house to Ram Bharos Firoz Khan's house.",
+      "In ward no. 12 from Magla Bai's house to Vine Singh Rajput's house to Kailash Rathore's house.",
+      "In ward no. 12 from Ambedkar Park to Parasram Sanskar Kendra.",
+      "In ward no. 11 from Shri Suresh Pawar's house to the drain, C.C. road construction work.",
+      "Work on various roads in ward no. 10.",
+      "Ward number 10 from Vikram Singh Yaduvanshi's house to Dheeraj Yadav's house.",
+      "In ward number 09 from Shri Santosh Sharma's house to Old Bank of Indirun and from Shri Bholaram Jain to Shri Prakash Khandelwal's house in Sudamapuri Bituminous Asphalt Layer Coat Construction Work.",
+      "In ward number 09 from Shri Mukesh Agrawal's house to Smt. Rekha Lakhera's house.",
+      "In ward number 09 from Sabzi Bazar to Aara Machine.",
+      "In ward number 08 from Shri Santosh Sharma's house to Shri Vino Joshi's house.",
+      "In ward number 07 from Shri Murari Agrawal's house to Shri Iqbal Khan's house C.C. road construction work.",
+      "In ward number 07 from Indore Bhopal Main Road to Jeswal Dakan Road.",
+      "In ward number 07 from Milan Marriage Garden to Main Road.",
+      "In ward number 07 from Ganesh Mandir to Nala.",
+      "In ward number 07 various roads of Mama Colony.",
+      "In ward number 07 various roads of Mama Colony.",
+      "In ward number 06 from Muslim Mohalla to Waheed Bhai's house.",
+      "CC road in all three lines in Qazi Colony in Ward No. 05. Road construction work.",
+      "From Majid Bhai ex-councilor's house to Anwar Bhai Welding Wale's house in Ward No. 05.",
+      "From Sabbu Khan's house to Lekhkh Khan's house in Ward No. 5.",
+      "From Hussain's house to Aslam Khan's house in Ward No. 05.",
+      "From Usman Gani Aleem Saheb's house to Waheed Shah's house in Ward No. 05.",
+      "From Manav Udyan Ashram to Shri Ram Ji Pawar's house in Ward No. 04.",
+      "Drain construction from Chote Ustad's house in Ward No. 04.",
+      "From Shri Ramakant's house to Anwar Miya's house in Ward No. 04.",
+      "Road construction at various places in Ward No. 03.",
+      "From Shiru Bhai ex-councilor's house to Imratlal's house in Ward No. 03.",
+      "Road construction at various places in Ward No. 02.",
+      "Ward No. 01 from Sehore Road to Tiraha.",
+      "Ward No. 01: From Parasar Patwari's house to Ranjit Saraswal's house to Adda Wale Chacha's house to Shri Laxman and Ramniwas's house.",
+      "Strengthening of cc road from Bhadbhada main Road to Imli Chouraha_01."
+
+    ],
+    "NAGAR PARISHAD REHTI":[
+      "From Shikari Ghat to Bhabbad River in WARD NO 15.",
+      "Ward 30 to 1 From produce market to canal in 01.",
+      "29. Ward No. 14 From opposite Bageshwari Mata Temple to Zero Point Road.",
+      "28. Ward. Sl. In 12, from Gandhi Chowk to Pintu and Tej Singh house.",
+      "27. Ward no. In 07, from Govind Pandey house to Faujdar house.",
+      "26. Ward no. From Rahul Radio Shop to Holitekara in 04.",
+      "25. Ward no. In 05 from Langa Mohalla to Shubham Thakur house.",
+      "24. Ward no. 03 From Main Road to KK Paliwal house in Housing Colony.",
+      "23. Ward no. 02 from Suresh Sharma house to Main Road.",
+      "22. Ward no. 09 from Main Road to Mandloi Colony.",
+      "21. Ward no. 09 from Mainroad to Vasudev Colony.",
+      "20. Ward no. 01 from Anek Singh house to Main Road.",
+      "19. Ward 01 Goma from Goma house in Mukati Colony to Govind Singh and Chhatri.",
+      "18. Ward no. 01 From S.P. School Building to Kolar Project Office in Kolar Colony.",
+      "17. Ward no. In 09, from Jagdish house to Bhujram house and Ashok house.",
+      "16. Ward no. Jagdish Ma from Ashutosh house in 09. Till the house.",
+      "15. Ward no. From Sumer Singh house to Geetanjali School in 09.",
+      "14. Ward no. 14 from Sandeep house to Main Road.",
+      "13. Ward no. From Ramakant house to Mahesh house in 14.",
+      "12. Ward no. From Jagdish house to Raman Singh house in 14.",
+      "11. Ward no. 10, near the house of Arshad Habib Siddiqui.",
+      "10. Ward no. From Raju house to Rasid house in 09.",
+      "9. Ward no. From Badamilal house to Smriti house in 09.",
+      "8. Ward no. From Dinesh house to Swaroop Singh house in 01.",
+      "7. Ward no. From Abid Kabadi house to Virendra house in 01.",
+      "6. Ward no. 15 from Rehti-Nasrullaganj main road, around Naveen bus stand.",
+      "5. Ward no. 15 from Naveen Bus Stand to Marriage Garden.",
+      "FROM MALVA COLONY TO REHTI- CHAKALDI MAIN ROAD AT WARD 09_03.",
+      "FROM HANUMAN CHAUK TO CHAKALDI MAIN ROAD TAK AT WARD 13_02.",
+      "FROM H/O RAFEEQ BHAI TO NAVGRAH PARK TO SHASHTI SCHOOL TO VINAY PALIWAL TO CHOPRA COLONY TO CHAKALDI MAIN ROAD WARD 07,10_01.",
+      "FROM AAWAS COLONY TO REHTI-NUSRULLAGANJ MAIN ROAD AT WARD 02 & 03_04."
+
+    ],
+    "NAGAR PARISHAD SHAHGANJ":[
+      "KAYAKALP 2.0_CC road construction work from Deep Jyoti School to Anil Gaur's house in Ward No. 08.",
+      "Construction of cc road in ward no 03 from house of Pappu Sharma to house of Chanu miya ghodewale.-47",
+      "Construction of cc road in ward no 03 from house of Shanu to house of habib kabade wala.-46",
+      "Construction of cc road in ward no 03 from house of Sher singh Sindhi to house of Gopi Ahirwar.-45",
+      "Construction of cc road in ward no 03 from house of Vinod Yadav To Tahir Kureshi. -44",
+      "Construction of cc road in ward no 03 from house of mahesh pandit to house of munnilal ahirwar.-43",
+      "Construction of cc road in ward no 03 from house of  sundarlal yadav to house of salman.-42",
+      "Construction of cc road in ward no 02 from Sulabh gyaan mandir to house of sunita yadav.-41",
+      "Construction of cc road in ward no 01 from house of Shivshankar pandey to house of ragghu yadav.-40",
+      "Construction of cc road in ward no 01 house of mohan kapoor to sudhir bhargava .-39",
+      "Construction of cc road in ward no 01 from house of anil sharma to house of pinku sharma.-38",
+      "Construction of cc road in ward no 08 from house of dr. shahu  to house of jitu vijayvargiya.-37",
+      "Construction of cc road in ward no 07 from house of arjun to house of  gotu .-36",
+      "Construction of cc road in ward no 08 from house of Anita chouhaan  to house of navalkishor vishvkarma .-35",
+      "Construction of cc road in ward no 08 from house of dr. shahu  to sansaakar school.-34",
+      "Construction of cc road in ward no 08 from house gotam ahirwar  to house of jeevan pal.-33",
+      "Construction of cc road in ward no 08 from house of Shahuji pipaliya wale  to house of kanchedhi kewat.-32",
+      "Construction of cc road in ward no 08 from Pratibha Hospital to house of Dhaniram JAtav.-31",
+      "Construction of cc road in ward no 06 from house of Raju Banskar  to house of banti banskar.-30",
+      "Construction of cc road in ward no 06 from house Sachin Rajpoot  to house of lakhan ahirwar.-29",
+      "Construction of cc road in ward no 06 from house of Pratulaya gour to house of govind banskar.-28",
+      "Construction of cc road in ward no 12 khedapati mandir to shamshan ghat .-27",
+      "Construction of cc road from narmada parikama road to shamshan ghar pahuch marge .-26",
+      "Construction of cc road in ward no 14 from aaganwadi bhawan to house of sunil vishkarama.-25",
+      "Construction of cc road in ward no 14 Ahir Mohall.-24",
+      "Construction of cc road in ward no10 house of manoj gour to gayaneta towards kailash gour to chota mandir-23",
+      "Construction of cc road in ward no 12 from Dharmshala to house of  munshi dada.-22",
+      "Construction of cc road in ward no 09 from house of Madhav singh  to house of Manoj gour.-21",
+      "Construction of cc road in ward no 09 from house of Hariram halwai  to house of parkash verma.-20",
+      "Construction of cc road in ward no 10 from madarsha  to house of ramesh malvi.-19",
+      "Construction of cc road in ward no 15 from house of Rahish khan  to house of gopi pal.-18",
+      "Construction of cc road in ward no 08 from house of Ramesh chouhaan to house of kallu parshad .-17",
+      "Construction of cc road in ward no 06 from house of santosh vijayvargiya  to house of raju gour.-16",
+      "Construction of cc road in ward no 05 fromcomplex towards  house of santosh ahirwar  to house of badhmilal ahirwar.-15",
+      "Construction of cc road in ward no 05 from house of kanchedi parshed to house of munalal.-14",
+      "Construction of cc road in ward no 05 from house of Ramkesh Ahirwar to nagar parishad complex.-13",
+      "Construction of cc road in ward no 05 from house of Prami ahirwar to house of hemraj ahirwar .-12",
+      "Construction of cc road in ward no 06 from house of shazid khan  to house of raja Miya.-11",
+      "Construction of cc road in ward no 06 from house of lal miya  to house of haricharan ghabare.-10",
+      "Construction of cc road in ward no 03 from house Raju Shahu  to house of Naresh NAth.-09",
+      "Construction of cc road in ward no 03 from house of Payaare miya to house of Ashalam.-08",
+      "Construction of cc road in ward no 03 from house of Akil to house of Liyakat khaan.-07",
+      "Construction of cc road in ward no 01 from house of nirmal poliwal to lakhan yadav.-06",
+      "Construction of cc road in ward no 01 from house of O.P. Tiwari to house of Sardar singh kashyap.-05",
+      "Construction of cc road in ward no 01 from house of Vishal Bhargawa to Dilip poliwal.-04",
+      "Construction of cc road in ward no 02 from house of Vikash ranjan  bhargava to  masazid.-03",
+      "Construction of cc road in ward no 01 from house of Vinay Bhargava to house of kabbu miya.-02",
+      "Construction of cc road in ward no 01 from house of devi charan poliwal to house of hari charan ghabare.-01",
+      "Strengthening of cc road from baktra road to. Akola road pahuch marge and rest house road to purana bazar pahuch marge",
+      "Strengthering of CC road from Resthouse Road to Purana Bazar pahuch marg_02"
+
+    ],
+    "NAGAR PARISHAD BUDHNI":[
+      "KAYAKALP 2.0_Bt Road from front of office building to Convent School in Ward No. 07 and 08",
+      "Bituminious Road over Utkrast Road in Ward No. 12 from Mana Pahunch Marg Near Arjun Hotel to Near Old Sleeper Factory_01"
+    ],
+    "NAGAR PARISHAD ICHHAWAR":[
+      "KAYAKALP 2.0_Ward no. From Paan Chauraha to Narmada Jhabua Back in 06,07,08 and 09.",
+      "KAYAKALP 2.0_ From Waheed Netaji's house in Ward No. 03 to Monu Pandit's house via Leelashraya.",
+      "KAYAKALP 2.0_Ward no. In 04,05 and 06, from Jumma Chowk to Takiye Wali Masjid via Imam Bada.",
+      "KAYAKALP 2.0_From Sanjay Paliwal's house to Rajendra Chauhan's house in ward number 04.",
+      "pqc overlay & road winding at ward no12 mehta marriage garden towards bhaddu rathore house to bus stand main road",
+      "Construction of CONCRETE ROAD & Strenthning  at  ward no. 11 me Bus Stand Pahuch marg  Kattam Road Banshi lal Pahalban ke makan se Shiv kumar Tuwani ke makan tak_01"
+
+    ],
+    "NAGAR PARISHAD KOTHERI":[
+      "KAYAKALP 2.0_Ward no. CC from 04 Highway to Holi Chowk. Road work",
+      "KAYAKALP 2.0_Ward no. 06 - 07 CC from Main Highway to VIT Gawakheda Road. Road work.",
+      "KAYAKALP 2.0_CC Road work from Ward No. 06-07 Main Highway to Santosh's house.",
+      "Strengthening of C.C. Road Ward No.08 Shiv Mandir to Mainakhedi Road _02",
+      "Strengthening of C.C. Road Ward No.02 Bus Stand (Mata Mandir) to Pawan Chowk _01",
+      "C.C. strengthening work from Hemraj Saudagar's house to hand pump (Takri) in ward no. 12."
+    ],
+    "NAGAR PALIKA SEHORE,BHOPAL":[
+      "KAYAKALP 2.0_From Old Bus Stand to Santosh Singh's house, from Koli Samaj Dharamshala to Prem Pehalwan's house.",
+      "KAYAKALP 2.0_From Karoli Mata to Silo Jamonia Jod,",
+      "From Lal Masjid to Post Office_07",
+      "Purana bus stand se ek minar masjid se upadhyay ki chakki se mata mandir tak B.T. road_06",
+      "Prem Pehalwan se Luniya chouraha B.T. road_01",
+      "Modi sishu mandir se lal masjid tal B.T. road_03",
+      "Machli pul se Railway station tak & luniya chourahe se MPEB tak B.T. road _09",
+      "Kotwali Chourahe se Trama Centre tak B.T. road_02",
+      "Jaiswal hospital se englishpura pull tak B.T. road_08",
+      "Indore naka se Utkrisht vidhyalay tak B.T. road_10",
+      "Central school se chanakyapuri tak B.T road_05",
+      "Central school se bhopal naka tak B.T. road_11",
+      "Bus stand vikas antargat B.T. road_04"
+
+    ],
+    "NAGAR PALIKA biaora":[
+      "KAYAKALP 2.0_6 W.N. Strengthening of CC road by overlaying PQC on existing CC road of 250 meter length on 06, from Tomar ji's house to Airtel Tower.",
+      "KAYAKALP 2.0_Strengthening of CC road by overlaying PQC on existing CC road of 450 meter length Ward No. 5. 04 Punjabi Hospital to Muktidham",
+      "KAYAKALP 2.0_Strengthening of CC road by overlaying PQC on 450 meter long existing CC road at Gali No. 4 WN 18. 2",
+      "KAYAKALP 2.0_Strengthening of CC road by overlaying PQC on existing CC road of 200 meter length from 3 AB to WN 08. Road to M.PEB. Office",
+      "KAYAKALP 2.0_Strengthening of CC road by overlaying PQC on existing CC road of 200 meter length on WN 10 & 12 from Old Suthalia Road to Matamand Square.",
+      "KAYAKALP 2.0_W.N. 12 A.B. Strengthening of CC road by overlaying PQC on 400 meter long existing CC road. Road leading to Matamand Square",
+      "1.Cement Concrete Road in Ward No. 9 and 10 from Buniyadi School Main Road to MPEP Office_01 2.Cement Concrete Road in Ward No. 5 from Pathology Main Road to Police Talkies_02 3. Cement Concrete Road in Ward No. 13-1 from Indore Nake to Pal ki Talab_03 4. Cement Concrete Road In Ward No. 16 from Old Suthlia Main Road to Ganda Nallah_04 5. Cement Concrete Road  in Ward No. 2 and 3 from AB Road Nagar Palika Office to Rajgarh Road_05 6. Cement Concrete Road in Ward No. 18 Main Road_06"
+
+    ],
+    "NAGAR PALIKA NARSINGHGARH":[
+      "KAYAKALP 2.0_RCC drain construction work from Chhota Mahadev Road to Hinglaj Mata Temple in Ward No. 15.",
+      "KAYAKALP 2.0_CC road strengthening work from Bharti Building to Bholenath Temple in Ward No. 09 and from Sanjay Sahu's house to Golu Mandwal's house.",
+      "KAYAKALP 2.0_CC road strengthening work from Kailash Luvvanshi's house to Phoolsingh Verma's house in Ward No. 14.",
+      "KAYAKALP 2.0_CC Road strengthening work from Satyanarayan Mahawar's house to Jagannath Khatri's house in Ward No. 05.",
+      "KAYAKALP 2.0_CC road strengthening work from Kumhar Gali located in Thawariya in Ward No. 01 to Kanwarani Mata Temple.",
+      "KAYAKALP 2.0_CC Road strengthening work from Ward No. 15 Chhota Mahadev Road to Hinglaj Mata Mandir.",
+      "Cement Concrete Road in Ward No. 8 from Navjeevan School Main Road to Ward no. 10 Nagar Palika Main Market_03",
+      "cement Concrete Road in Ward No. 15 from Balbatpura Chouraha to Chhota Mahadev Mandir Main Road_04",
+      "Cement Concrete Road in Ward no. 11 from Main Pal Road to Narsingarh to MPEB Office to Chhatrasal Mandir_01"
+    ],
+    "NAGAR PALIKA RAJGARH":[
+      "KAYAKALP 2.0_ CC in Surendra Kaka's street and both the back streets from Rakesh Gupta's house in Phalodi Colony, Ward No. 15. Road and drain construction work.",
+      "KAYAKALP 2.0_Ward number 14, from near the hostel, from Bhagwan Singh Rao's house to near the mosque, C.C. in Baradwari. Road construction work.",
+      "KAYAKALP 2.0_CC in Ward No. 11 Bhoi Mohalla. Road drain construction work.",
+      "KAYAKALP 2.0_Ward No. 05 Indra Colony CC. Road construction work.",
+      "KAYAKALP 2.0_Ward No. 02 Hanuman Mandir to Kalakhet CC. Road construction work.",
+      "KAYAKALP 2.0_CC road and drain construction work up to the government quarter and crematorium gate located near Ward No. 02 Circuit House Gate.",
+      "CONSTRUCTION OF CC ROAD - NAGAR MOHALLA MAIN ROAD TO FIZA GARDEN, RAJGARH_02.",
+      "3.CONSTRUCTION & RENEWAL OF BT ROAD - WARD 01, KILA GATE GHOOMGHATI TO CHOTA PUL, RAJGARH_03.",
+      ".Construction, Widening, Strengthening & Renewal Of BT road - Birsa Munda Chowk to Jhansi ki Rani chowk to Nagar Mohalla Main Road, Rajgarh_01",
+      ".Construction & Renewal Of BT road over existing CC road - Ward 14, ICICI Bank to shikshak colony to baradwari chowk near nathulal house, Rajgarh_04"
+    ],
+    "NAGAR PALIKA SARANGPUR":[
+      "KAYAKALP 2.0_Sarangpur CC Road and drain construction ward no. From Santosh Malviya's house to Sonu Basod's house in 17.",
+      "KAYAKALP 2.0_Sarangpur CC Road and Drain Construction from Khedipati Hanuman Temple to Asmani Mata Temple located in Ward No. 08.",
+      "KAYAKALP 2.0_Construction of CC Road from Ward 16 Taleni Road to Bypass.",
+      "KAYAKALP 2.0_Ward 16 Dhangar Colony CC Road",
+      "KAYAKALP 2.0_ CC Road from Ward 11 Trenching Ground to Dussehra Maidan Road",
+      "KAYAKALP 2.0_Ward 08 from Balipura Hanuman Mandir via Pareek ji's house to Hospital Road as well as Mulu Rathore ji and Ajit Kaur Madam's street CC Road.",
+      "Cement Concrete Road in Ward No. 3 from Navin Bypass to Mahadev Mandir to Anganwadi Kendra Puliya_01",
+      "Cement Concrete Road in Ward No. 15 from Till Bhandareshwar to Hospital Road_02",
+      "Bitiminious Renewal from Bus Stand Maharana Pratap Pratima to Bhairo Darwaja and Nijamabad School to Dindayal Chouraha to Bus Stand_04",
+      "Cement Concrete Road in Ward no. 17 from AB Main Road to Yadav Narsingarh Home to Medicare Nursing College_03"
+
+    ],
+    "NAGAR PARISHAD BODA":[
+      "KAYAKALP 2.0_Ward no. 6. CC Road work from Rosla Road Pulia to Gandhi Chowk New Tiraha.",
+      "KAYAKALP 2.0_CC Road work from Chamunda Mata Mandir near Patidar ji's house to new complete addition of Ward No. 4,",
+      "cc road Pachore bypass road to narshigarh bypass road_03",
+      "cc road ambedhkr chowk to Mukti Dam via Holi chowk_02",
+      "cc road ambedhkr chowk to gov hospital_01",
+      "BT road rosala road culvert to mahua road culvert _05",
+      "BT road at pachore road to narshigarh road via bus stand_04"
+    ],
+    "NAGAR PARISHAD CHAPIHEDA":[
+      "1.Bituminious Road in Ward No. 5, 4, 7, 6 and 8 Main Bus Stand to Machalpur Road_01",
+      "KAYAKALP 2.0_CC road construction work on both sides of Man Road from Ranara Road to Tappa office"
+
+    ],
+    "NAGAR PARISHAD jEERAPUR":[
+      "KAYAKALP 2.0_CC road construction in ward number 1, 2",
+      "02_BUS STAND TO GANDHI MARKET SOCIETY HOSPITAL ROAD ATAL CHAUK GURUDWARE BAZAR TO RAMLEELA CHAUK WARD NUMBER 1 ,2 ,3, 4 ,5 ,6 ,7 ,9, 10, 11, 12,",
+      "01_PROPOSED CC ROAD GANDHI MARKET TO KANYA SCHOOL , MACHALPUR ROAD TO BHANDAVAD ROAD WARD NUMBER 2,4,5,6,7, 9,11,12"
+    ],
+    "NAGAR PARISHAD KHILCHIPUR":[
+      "KAYAKALP 2.0_Ward no. Asphalt work in 05.",
+      "KAYAKALP 2.0_Ward no. CC in 03 Road construction work.",
+      "KAYAKALP 2.0_Ward no. R.C.C. in 02 Drain construction work.",
+      "Construction & widening of BT Road Ward no. 03, NH Bypass to Somwariya Bada Pull"
+    ],
+    "NAGAR PARISHAD KHUJNEER":[
+      "KAYAKALP 2.0_Ward No. 4 near Gurjar's house and Ward No. 2 near Biramji's house, C.C. Road construction work.",
+      "KAYAKALP 2.0_In Ward No. 15 of Khujner, behind Sattar Kabadi's house near the police station, in the street of Kamalji's house, near Krishi Mandi,",
+      "KAYAKALP 2.0_CC strengthening construction work up to Rajgarh Road in Ward No. 01.",
+      "KAYAKALP 2.0_Street light work from Government to Jirapur Bypass in Ward No. 08",
+      "KAYAKALP 2.0_Construction of RCC drain from Ward Number 08 Government Hospital to Jirapur Bypass Road.",
+      "KAYAKALP 2.0_CC Road construction work from Ward No. 08 Government Hospital to Jirapur Bypass Road.",
+      "Cement Concrete Road from Shah Shop to Manglik Bhawan Bus Stand_04",
+      "Cement Concrete Road from Manglik Bhawan to Yatri Pratikshalaya Bus Stand_03",
+      "Cement Concrete Road from Manglik Bhawan to Chouraha_02",
+      "Cement Concrete Road from Jeerapur Road to Shah Shop_05",
+      "Bituminious Road Jeerapur Road to Bus Stand_01"
+
+    ],
+    "NAGAR PARISHAD KURAWAR":[
+      "KAYAKALP 2.0_In ward number 15, Rohit Vae Peepal Jeen Kaun to Ramesh Panditji's house.",
+      "KAYAKALP 2.0_Ward no. 08 Ramdas Vaishnav Marg to Hemant Sharma House.",
+      "KAYAKALP 2.0_From line man's house to Saxena ji's house behind the government in ward number 05. hospital.",
+      "KAYAKALP 2.0_Ward number 01 road leads from Kankadia Road to Sumer Singh Chaudhary's house.",
+      "Kalapipal main road to talen main road bt renewal work"
+
+    ],
+    "NAGAR PARISHAD MACHALPUR":[
+      "KAYAKALP 2.0 WARD 05 SHYAM BAIRAGI KE MAKAN SE KEVDA BAWDI ROAD TAK",
+      "KAYAKALP 2.0_Ward no. 15 Harisingh Gurjar's house to Farida Khan's house",
+      "KAYAKALP 2.0_Ward no. 01 From Mohan Bairagi's house to Bhona Dangi and Shyam Dangi's house",
+      "ward no 2 purana jhanda chok  sabji bajar hospital  ke smane se men bajar hote hue satynarayn ji madhawat tk evam ward no 7 khilchipur road purani pani ki tanki se vijay ji gupta ke makan tk"
+    ],
+    "NAGAR PARISHAD PACHOOR":[
+      "KAYAKALP 2.0_Strengthening work in Ward 13-14 from Old Municipality to Mannat Shadi Hall via Newaj River.",
+      "KAYAKALP 2.0_Strengthening work of CC road in Ward 2-6 from Tension intersection to Kamal Gupta's house via Bank of India.",
+      "mandi main  gate towards bus stand  via main market road .at ward no 15 and 06_01   ward no 03 from shiv mandir near railway track towards geeta public school main road ward mo 07 and 14 aara machine point towards main road of city and old bus stand via connecting nagar palika office and main market _ ward 02 and 15 old tehsil towards new bus stand ends at new bus stand_04",
+      "mandi main  gate towards bus stand  via main market road .at ward no 15 and 06_01   ward no 03 from shiv mandir near railway track towards geeta public school main road _02  ward mo 07 and 14 aara machine point towards main road of city and old bus stand via connecting nagar palika office and main market _03  ward 02 and 15 old tehsil towards new bus stand ends at new  bus stand_04"
+
+    ],
+    "NAGAR PARISHAD SUTHALIYA":[
+    "KAYAKALP 2.0_Khedapati Hanuman temple to deity garden in ward no 06,07",
+    ".KAYAKALP 2.0_ Ward No. 12 from Dal Mill intersection to Balaji Chakk",
+    "KAYAKALP 2.0_ From Airtel Service Center to Bada Bagh Temple in Ward No. 12",
+    "KAYAKALP 2.0_Ward no 07,08,09 from Khedapati Hanuman Temple to Maa Karma Kiran Store",
+    "Strenthning of CC Road by overlaying of RCC Layer over existing CC Road"
+    ],
+    "NAGAR PARISHAD TALEN":[
+      "KAYAKALP 2.0_Construction of CC Road from Ghisalal Chowkidar to Ugal River Ward 14.",
+      "KAYAKALP 2.0_Construction of CC road from Bhanwar Malviya to Hanuman Mandir Ward 12.",
+      "KAYAKALP 2.0_Construction of CC Road from Dinesh Yadav to Ganesh Mandir Ward 12.",
+      "KAYAKALP 2.0_Construction of CC Road from Old Exchange to Rajesh Valmiki Ward 09.",
+      "Sarangpur Naka ward 05 se Anganwadi bhawan ward 14 tak BT Road nirmad Talen",
+      "Sarangpur Naka ward 05 se Anganwadi bhawan ward 14 tak BT Road nirmad Talen"
+
+    ],
+    "NAGAR PALIKA GANJBASODA":[
+      "KAYAKALP 2.0_RCC drain from Ward No. 15 Pachma Bypass to Palod Petrol Pump",
+      "KAYAKALP 2.0_CC Road from Rambabu Sharma to Meena ji to Ajay Jain to Radhelal.",
+      "KAYAKALP 2.0_Damayanti Dharmakata to Mil Mata Mandir CC Road",
+      "KAYAKALP 2.0_Back gate of school till Gandhiji's house CC Road",
+      "KAYAKALP 2.0_CC Road from Vinod Nema to Savarkar Chowk",
+      "KAYAKALP 2.0_CC road from S.D.M.Ghar to Bedankhedi bypass culvert.",
+      "KAYAKALP 2.0_Ward no. 06 or 07 Keshav Vatika to Surya Prakash Chaurasia CC Road",
+      "KAYAKALP 2.0_Ward No. 11 or 12 Nolkhi Mandir to Govind Nayak CC Road and Renewalkot",
+      "CC WORK FROM TYODA ROAD TO DAMYANTI DHARAMKANTA_06",
+      "5. BT RENEWAL WORK FROM TYODA ROAD TO RAILWAY STATION_05",
+      "4. CC RENEWAL WORK IN CHARKHAMBA MAIN ROAD_04",
+      "2. CC RENEWAL WORK FROM WARD NO 09 SHULABH COMPLEX TO HOSPITAL ROAD_02",
+      "1. CC RENEWAL WORK FROM KARMA DEVI CHOUK TO LAXMI BAI PARK_01",
+      "3. CC RENEWAL WORK IN LADDA AGENCY MAIN ROAD_03"
+
+    ],
+    "NAGAR PALIKA SIRONJ":[
+      "KAYAKALP 2.0_Construction of CC road and drain from 2 Ward 3 Girraj Garden to Rambabu Tyagi's house.",
+      "KAYAKALP 2.0_ Ward 17 CC Road construction work from Panchkuiya Ghat to Utkrisht Road Kasighat",
+      "WARD 16 HIGH SCHOOL KE SAMNE SE WARD 17 IDGAHA ROAD UDAN CHATRI TAK_01 WARD 03 BALEZA PETROL PUMP SE WARD 10 SHREE GANDHI JI KI PRATIMA CHATRI NAKA TAK_02"
+
+    ],
+    "NAGAR PALIKA VIDISHA":[
+      "KAYAKALP 2.0_Asphalt work from Badjatya intersection to Madhavudyan LIC office",
+      "KAYAKALP 2.0_Asphalt work from Shivmandir Baraipura intersection to Bajaria.",
+      "KAYAKALP 2.0_Asphalt work from Girdhar Gopal Aggarwal to Baraipura intersection, Aman Singh's house.",
+      "KAYAKALP 2.0_Asphalt work from Bada Bazar Chaurasia house to Shivaji Chowk.",
+      "KAYAKALP 2.0_Asphalt work from Kashmiri Hotel to Badkul Bhawan Bal Bihar.",
+      "KAYAKALP 2.0_Asphalt work from Mangalmurti Puja Store to Bada Bazaar.",
+      "KAYAKALP 2.0_Asphalt work from Tilak Chowk to Meghdoot Cinema.",
+      "KAYAKALP 2.0_Asphalting work near Sulabh Complex, Kallumurga.",
+      "KAYAKALP 2.0_Asphalting work from Puranpura Main Road Sunil Travels to Calvert Laldhau",
+      "Neemtal bridge to Janpad office BT Road _01 Janpad office to Ahmedpur tiraha BT Road  _02convent School to Near Sager puliya BT Road _03"
+    ],
+    "NAGAR PARISHAD  SHAMSHABAAD":[
+      "KAYAKALP 2.0_Construction of box culvert on Shiv Mandir to Municipal Council Gate Bhagwanpur Road in Ward A 2.",
+      "KAYAKALP 2.0_Construction of CC road from Shiv Mandir to Municipal Council Gate in 1 Ward No. 02",
+      "nasaratgarh seramdev mandir tak BT road sanjay restaurant se gas agency tak BT road:chota chouraha se tehsil tak BT road maheshwari dharmshala se barodiya puliya tak BT road tiranga chouraha se BSNL office tak BT road:nagar parishad se bhagwan pur gate tak BT road."
+
+    ],
+    "NAGAR PARISHAD KURWAI":[
+      "KAYAKALP 2.0_CC Road construction work from Tehsil Road to Government Maha Road via Nursery Babli Hostel.",
+      "KAYAKALP 2.0_ CC Road construction work from Main Road to Bina Tirahe via Post Office.",
+      "constuction of BT road from Mali pura,ward no 1 to annante baba,  ward no 8 & CC road from H/O mukesh rai, ward no 13 to H/O ballu tension, ward 14"
+
+    ],
+    "NAGAR PARISHAD LATERI":[
+      "KAYAKALP 2.0_bt road in ward 15 shamshabad road to rampura",
+      "Bituminious Renewal Coat from Anandpur Road to Banskheda"
+    ] ,
+    "NAGAR PALIKA AMLA":[
+      "KAYAKALP 2.0_NP from Ramli Road towards. Trenching ground reaching route",
+      "KAYAKALP 2.0_.ward numbers. 09 and 11, Sheru Hotel to Bodkhi Mor Road.",
+      "KAYAKALP 2.0_From Bodkhi Mor Pulia to Laxman Nagar Pulia near Durga Temple in ward number 09 and 11.",
+      "Cement Concrete Road in Ward No. 13 from Praveen Malviya House to Life Career School to MES Railway Line_02",
+      "Bituminious Road in Ward No. 14 from Bihariya Niwas to MES Bandha Mokshdham_01",
+      "Cement Concrete Renewal in Ward No. 7, 13 from Near Basant Adkale House to MES Railay Line to Hafeez Khan_03"
+    ],
+    "NAGAR PALIKA BETUL":[
+      "KAYAKALP 2.0_Construction of Bituminus Strengthening work from Masjid Chowk to Itarsi Naka Gadaghat Road",
+      "KAYAKALP 2.0_ Construction of Bituminus Strengthening work from Kargil Chowk to Thana Chowk via Akhara Chowk",
+      "KAYAKALP 2.0_ Bt Coat Sohanlal Marg Ward 13-14",
+      "Hospital Road Mulla Petrol Pump to Genda Chowk _04",
+      "Ganj Main Road Tanga Stand Chowk  To mulla Petrol Pump. _02",
+      "(Station Road) Vinoba School To Railway Under Bridge _01",
+      "(From Station Road ) Mechanic Chowk To Kargil Chowk _03"
+      
+    ],
+    "NAGAR PALIKA MULTAI":[
+      "KAYAKALP 2.0 6. Ward no. 07, Betul Road, Hari Lohar Wali Gali in Mahavir Ward, C.C. Road strengthening work.",
+      "KAYAKALP 2.0 5. CC from Maharashtra Bank to Hazare ji's house in Ward No. 11 Patel Ward. Road strengthening work.",
+      "KAYAKALP 2.0 4. Ward No. 01 CC from Bordehi Road to Rajendra Thakur in Tapti Ward. Road strengthening work.",
+      "KAYAKALP 2.0 3. Ward no. 02 CC from Sulabh Complex to Sai Mandir in Tilak Ward. Road strengthening work.",
+      "KAYAKALP 2.0 2. Ward no. 08 CC from Ambedkar statue to Gurusahegaon temple in Vivekananda ward. Road strengthening work.",
+      "KAYAKALP 2.0 1. Ward No.06 Gurusaheb Ward from Nagdev Temple to Meghnath Temple C.C. Road strengthening work.",
+      "KAYAKALP 2.0_ SDM Collage to Patel Colony",
+      "Cement Concrete Road in Tilak Ward from Betul Road to Dahare Vakil House_04",
+      "Cement Concrete Road in Subhash Ward from Betul Road to Kherwal House_05",
+      "Cement Concrete Road in Rajiv Gandhi Ward from Masod Pump to Jal Sansadhan Vibhag_02",
+      "Cement Concrete Road in Bhagat Singh Ward from Betul Road to Golu Warathe House_01",
+      "Cement Concrete Road in Tapti Ward from SDM Bangle to Kabir Ashram_03",
+      "Cement Concrete Road in Subhash Ward from Betul Road to Dr. Deshmukh House_06"
+    ],
+    "NAGAR PALIKA SARNI":[
+      "BITUMINIOUS ROAD Main road from Ambedkar statue to Ganesh Chowk_10",
+      "BITUMINIOUS ROAD Weekly Market to Main Road Ward 29 Pathkheda_09",
+      "KAYAKALP 2.0_ CC from Bagdona College to Main Road Bagdona Road compulsion work",
+      "KAYAKALP 2.0_ LCH from Power Office from Rajendre Nagar Old Municipality CC Road strengthening work from Mamta General Stoser to Kailash Sahu to Paramanand's house",
+      "KAYAKALP 2.0_C.C. AB from office BT .. Road Strengthening Work up to Type Swesteror",
+      "KAYAKALP 2.0_ BT from Dilip Paan Centar Medical Kali Temple to Pani Tank. Road strength work",
+      "KAYAKALP 2.0_CC from Dr. Saratkar to Umesh Grocery Stojor Road and B.T. Road strength work",
+      "KAYAKALP 2.0_Super F Scuil, CC Road and BT from Vijay Nagar to Oriya Mohalla to Sai Temple. Road Mabuctionalization Work",
+      "KAYAKALP 2.0_CC Road to Municipality Water Tank to Primary Health Center Patakheda near Tirpati Kankeya's house",
+      "KAYAKALP 2.0_CC from Stabar Hospital Road to Bagdona College Road strength work",
+      "Bituminous Road from From Gurudwara Chowk to Shiv Mandir_02",
+      "BITIMINIOUS ROAD FROM SAPTAHIK BAZAR TO AMBEDKAR PRATIMA TO SANJIVANI CLINIC TO KAILASH NAGAR CHOWK TO RAILWAY LINE_6",
+      "Bituminious Road from Prathmik Swasthya Kendra to Prem Nagar Chowk_01",
+      "Bituminious Road from Pathakheda Tigaddi to Civil Office_08",
+      "Bituminious Road from Near Intake Office to SBI Bank to Post Office_03",
+      "Bituminious Road from Nagar Palika Kshetriya Karyalaya to Football Ground to Rahul Namkeen_04",
+      "Bitiminious Road from 4 From Gurudwara Chowk to MQ Quarter No. 143_07",
+      "Bituminious Road from Bus Stand to Pathakheda Saptahik Market_05"
+
+    ],
+    "NAGAR PARISHAD ATHNER":[
+      "11. KAYAKALP 2.0_Rahi Chouk to Veersavarkar Complex",
+      "CC strengthening work connecting Bhaisadehi Road from Dr. Kirar's Clinic to Anganwadi Ward No. 1 and from Hanuman Mandir to Anghore's house",
+      "CC strengthening work from bus stand to MPEB office"
+   ],
+   
+   "NAGAR PARISHAD BETUL BAZAR":[
+      "KAYAKALP 2.0_Chowkipura Chaman Chaurasia to old bank from Anup Verma",
+      "KAYAKALP 2.0_Hathnora Road to Jagadhar Road",
+      "KAYAKALP 2.0_ Hand pump from Gudmandi to Rapta to Mazar Mahua Wale Basodpura",
+      "KAYAKALP 2.0_Shyambihari Gupta to Chowkpura",
+      "KAYAKALP 2.0_From Panwar Chowk to Saire Chowk",
+      "KAYAKALP 2.0_Bhattipura Bajrang Temple to Kaliji Chowk Vhaya Vijay Lodhi",
+      "KAYAKALP 2.0_ From Fawa Chowk Kala Mandir to Pandand Niwas",
+      "KAYAKALP 2.0_Harabu hairdresses to Jalamashesh Baba Vaaya Toria",
+      "KAYAKALP 2.0_From Mr. Manoj Thackeray to Manoj Vyas",
+      "Sinhwahini Chowk to Union Bank to Divine School _02",
+      "Choukipura Mahesh Verma to Bade Patel dubey niwas _03",
+      "Choukipura Chouk to Rajjan Chouhan Shivaji Ward _04",
+      "Ambika Sadi Center se NH Main Road _01"
+
+   ],
+   "NAGAR PARISHAD BHAINSDEHI":[
+     "KAYAKALP 2.0_Ward number 11,12,13 Sanjay Rathore to Ramnarayan Rathore's house",
+      "KAYAKALP 2.0_ Ward number 11 from the house of Amitabh Rathore to Dr. Khandit's house",
+      "KAYAKALP 2.0_Ward number 05 from Shriram Biske to Sharad Mishra's house",
+      "KAYAKALP 2.0_ From Mangalwari to Baba Temple in ward number 08",
+      "KAYAKALP 2.0_From Vardhman Chowk to Hanuman Temple in ward number 09",
+      "KAYAKALP 2.0_ Shiv Thakur's house from Ganesh Temple in ward number 2,3",
+      "Bituminious Road in Ward No. 5 from Govt. Kanya Utkrist School to Ramdeen Rathore House_02",
+      "Bituminious Road in Ward No. 4 from Ramdeen Rathore House to Munna Pansey House_01"
+
+   ],
+   "NAGAR PARISHAD CHICHOLI":[
+    "KAYAKALP 2.0_In ward 4 and 7, C-C-C Road Y Dinning Work from Jai Pillabh Chowk to Durgadas Chowk",
+    "Construction of C.C. Renewal Coat From Madhuri Clinic to Gokul Mankar House ward no-9,10_05",
+    "Construction of C.C. Renewal Coat From Gangare House to Gabbar Rathor House ward no 4_04",
+    "Rajesh Rathore to Harda road (bypass)_02",
+    "Malajpur Road to Jamthi road (bypass) _03",
+    "Betul road  to bhimpur road (bypass) _01"
+   ],
+   "NAGAR PARISHAD GHORA DONGRI":[
+    "KAYAKALP 2.0_In ward number 10,11,12, Main Road (near Hero Showroom) to Market Dhana Chowk",
+    "KAYAKALP 2.0_From Main Road to Shri Ashok Patwa shop in ward number 03",
+    "KAYAKALP 2.0_In ward number 05 from Shri Golu Malviya's house to tribal Mangal Bhavan",
+    "KAYAKALP 2.0_ From the house of Bhola Kahar of Shri Dilip Agarwal in ward number 02",
+    "KAYAKALP 2.0_ In ward number 04 from Shri Vijay Namdev's house to railway station",
+    "KAYAKALP 2.0_ Ward Completion 14 and Ward Center 15 to Shri Mansing's house to Shri Sanjay Uike's house",
+    "KAYAKALP 2.0_. Ward number 05 and ward number 06 from Main Road to District Office to Pipri Pump",
+    "ward No.5 Sarni baretha road to Govt college _04",
+    "Ward No. 7  Mukesh Saryam to Taryam to Mehto House to Pradhan NGO_03",
+    "Ward No. 1&2 Satpura Maidan To Station Road_02",
+    "Ward No  3&4 Mukhya Marg to Durga chowk_01"
+
+   ],
+   "NAGAR PARISHAD SHAHPUR,BETUL":[
+    "KAYAKALP 2.0_Sea road widening work from Aamdhana to Bajrang Temple",
+    "KAYAKALP 2.0_CC road construction work from Vijay Verma ji's house to Rishi Verma ji's house in ward number 03 and 04",
+    "Bituminious Road from Shiv Mandir to Mishri Joshi House_05",
+    "Bituminious Road from Post Office to Tunni Thakur House_03",
+    "Bituminious Road from Durga Chowk to Shiv Mandir_01",
+    "Bituminious Road from Devdadev to Rameshwar Soni House_02",
+    "Bituminous Road from Kishore Gupta House to Anganwadi_04"
+
+   ],
+   "NAGAR PALIKA HARDA":[
+    "KAYAKALP 2.0_Asphalt work from Vriddhi Ashram to Road Pulia and Pulia to Anganwadi Road",
+    "KAYAKALP 2.0_Asphaltization work from Indore Road to LIG Colony Main Road via Jamweshwar Bhavan",
+    "KAYAKALP 2.0_Asphaltization work from Somani Amporium to Jain Temple reception gate",
+    "KAYAKALP 2.0_Asphalt work from Indore Road to Khandwa bypass via ward number 01 water tank",
+    "KAYAKALP 2.0_Asphalt strengthening work from Tank Vandhu Chorah to Khedipura Pulia",
+    "KAYAKALP 2.0_Asphalt work from Jagdish Kaka's Makkan to Khedipura Beldar Tiraha",
+    "KAYAKALP 2.0_Asphaltization work from Hardol Baba Chowk to Shankar temple via mall godown",
+    "KAYAKALP 2.0_Asphalt work from Saraswati School to Nehru Park's side to side road",
+    "Veer tejaji chowk se deep corner hote hue prakash tower tak avem deep corner se uttkrast vidhyalay tak damar majbutikaran karya_05",
+    "Tank chouraha se central bank hote hue noori masjid tak avem central bank se soniji ki dukan tak damar majbutikaran karya_06",
+    "Raj Residency ke samne se railway station hote hue bus stand ke samne se LIC office ki puliya tak damar navinekaran karya_01",
+    "Pratap talkies mahila gate se khedipura masjid tak damar majbutikaran karya_07",
+    "Post office chouraha se thana kotwali chouraha hote hue nagar palika wachnalay avem narayan talkies tak damar navinikaran karya_02",
+    "Nayi sabji mandi se Dr O.P Gurjar clinic se hote hue nehru park ke uttariya kone tak aND Dr. O.P Gurjar clinic se Dr. Sumit Modhe ke clinic hote hue indore road tak damar navinikaran karya_03",
+    "Balram chowk se veer tejaji chowk hote hue jila panchyat pahuch marg tak damar majbutikaran karya_04"
+
+   ],
+   "NAGAR PARISHAD KHIRKIYA":[
+    "Cement Concrete Road from Thana Chowk Khandwa NH to Indian School Chhapibad to Jhanda Chowk_04",
+    "Bitumin renewal coat from Railway gate to Rajput chhatrawas ward 07_01",
+    "Bitumin renewal coat from Railway gate to husaini puliya and nagar parisahd office ward 04_02",
+    "Cement Concrete Road in Ward no. 10 from Bank of India Main Road to Krishi Upaj Mandi, Dal Mil Ara Machine_03"
+
+   ],
+   "NAGAR PARISHAD SIRALI":[
+    "KAYAKALP 2.0 Ward no. 15, Vikrampur Ram Mandir to Middle School C.C. Renewal work.",
+    "KAYAKALP 2.0 Ward no. 14, Charuva Sirali Main Road, from Govind Kushwaha's house to Veeru Patel's house, C.C. Renewal work.",
+    "KAYAKALP 2.0 Ward no. 07, CC from old city council office to Kalam's house. Renewal work.",
+    "KAYAKALP 2.0 Ward no. 02, CC from Meghnath Chowk to Mangesh Kushwaha's house. Renewal work.",
+    "KAYAKALP 2.0 Ward no. 01, from Kishore Banke's house to Marriage Garden, C.C. Renewal work.",
+    "KAYAKALP 2.0_  STRENGTHENING OF roads in various wards (ward no 1,2,7,14,15)"
+
+   ],
+   "NAGAR PARISHAD TIMARNI":[
+      "Strenthing Of CC Road From NH to Edgah Bia Anganwadi to Rahatgaon Road and Edgah to Barja road at ward no 14 & 15 in Timarni"
+   ],
+   
+   "NAGAR PALIKA ITARSI":["KAYAKALP 2.0_ Vijay Patel from Shakti Nagar Tiraha to Gappu Lineman W20",
+"KAYAKALP 2.0_Deepak Grocery Rani Avanti School Park 4 Side WN05",
+"KAYAKALP 2.0_ Shukla from Grocery to Kamlesh Tiwari House",
+"KAYAKALP 2.0_ Trishala Nandan Udyan to Kurmi Bhavan WN04",
+"KAYAKALP 2.0_ Over Bridge on either side from Bangalia to railway station Hanuman temple to MPEB office to over bridge",
+"KAYAKALP 2.0_ Mahavir School from Rathi Dal Mill WN17",
+"KAYAKALP 2.0_Anshul Diwan House to Balaji Temple WN22",
+"KAYAKALP 2.0_WN27 from Dr. Zia House",
+"KAYAKALP 2.0_. Haji floor from Jamani Valo WN22",
+"KAYAKALP 2.0_. N Tiwari Hosu to Satpura Colony to Bhatia House W01,02",
+"KAYAKALP 2.0_ FCI Wall W05 from Neemeshwar Hanuman Temple",
+"KAYAKALP 2.0_Mahesh Tiwari House W03 from Main Road",
+"KAYAKALP 2.0_ Convent Church from Chamunda Square to Canara Bank to Kasturba School W23",
+"KAYAKALP 2.0_ MGM College 03 JM Kampu towards Sonkar Bhavan",
+"KAYAKALP 2.0_ Nyas Colony Sai Temple Road WN13",
+"KAYAKALP 2.0_ Maharishi Nagar from Malind Ronj from Suresh Goyal House W16-19",
+".KAYAKALP 2.0_ Bhola Ahirwar House from Dilip Agarwal",
+"KAYAKALP 2.0_ Mahavir School Road in front of WNO17",
+"KAYAKALP 2.0_ Nyas Colony Dubey Hospital Service Road W13",
+"KAYAKALP 2.0_Sabzimandi Main Road to SBI Square W31",
+"Ward No.32 Pahli line Dena Bank to Aahaar Restaurant & Gurudware to Dwarkadhish Mandir & 2 Line to 9th, 11th & 13th Line Itarsi_01",
+"Ward No.20 & 30 Vishwanath Talkies To Panticostal Church Itarsi_08",
+"Ward No.19 Sarswati School To Ganesh Nagar Chouraha Road Itarsi_02",
+"Ward No. 30 MGM Collage Chouraha To Durga Mandir Surajgunj Chouraha & Gothi Dharmshala to Vardhmaan School Itarsi_09",
+"Ward No. 12 Amit Vishwashs Shop To Kalchuri Bhawan To NH-69 Main Road Itarsi_10",
+"Ward No. 04 Purani Itarsi Ajad Churaha to Deaval Mandir to Kurmi Bhavan Purani Itarsi _06",
+"Ward No. 02 Jamani Main Road To Sardarballav Bhai Patel Kurmi Dharmshala Purani Itarsi_05",
+"Ward No. 01 NH 69 Main road to Pashu Chikitsalay Purani Itarsi_04",
+"BT Work At Main Road of Itarsi CIty In Kayakalp Sceme",
+"Ward No. 24, 25, 26 Raj talkies to Nala Mohalla to Mehagaon River Itarsi _11",
+"Ward No. 21 Balaji Mandir To Ajad Panja Chouraha Itarsi_07",
+"Ward No. 19 Ganesh Nagar Colony to Penticostal Church_03"
+],
+"NAGAR PALIKA NARMADAPURAM":[
+     "KAYAKALP 2.0_Construction of CC road from Renuka Raikwar to Ishwar Dada ke Dhar in Ward 32.",
+"KAYAKALP 2.0_CC Road from Bhura to Deepak to Babbu Manjhi in Ward 27.",
+"KAYAKALP 2.0_Construction of CC road in Ward 08 from Dhanraj Thakur to Ahirwar Mohalla to Khanna House to Soni Ji.",
+"KAYAKALP 2.0_Ward 12 Main Road to Babulal Yadav CC Road",
+"KAYAKALP 2.0_Construction of CC road from Mukesh Vusen to Krishna Kanvet in Ward 23.",
+"KAYAKALP 2.0_Construction of CC road and drain in Ward 23 from BK Solanki to Chhotalal Uike to Madhudogre to Dilip to Sanjay Bachle's house.",
+"KAYAKALP 2.0_Construction of CC road till Sonu Srivastava's house in Ward 09, Harijan police station, Babai Road.",
+"KAYAKALP 2.0_Ward no. CC Road construction work from Mukesh Vusen to Krishna Convent in 23rd.",
+"KAYAKALP 2.0_Ward no. In 23, CC road and drain construction work from BK Solanki to Chhotalal Uike to Madhudongre to Dilip to Sanjay Vachle's house.",
+"KAYAKALP 2.0_Narmadapuram Ward No. 09 Harijan police station to the house of Babai Road Collectorate Road Sonu Srivastava To the road.",
+"KAYAKALP 2.0_ CC Road work in ward number 17 Narayan Nagar Main Road and Professor Colony.",
+"KAYAKALP 2.0_CC road construction work from ward number 14 divisive city to Kalamadhi Road.",
+"KAYAKALP 2.0_ BT renewal coat work from ward number 14 Vinod Rawat to Ghar of Lalu Rajput",
+"KAYAKALP 2.0_ Ward 15 Itarsi Road Hariyali Square to PHE Office Narmadapuram BT Renewal Coat Work.",
+"KAYAKALP 2.0_Bt renewal coat work from ward number 14 LIG colony to flour mill and Chauhan Dairy.",
+"KAYAKALP 2.0_ Bt renewal coat work from the army petrol pump Durga Temple to Bablu Meena's house in ward number 24.",
+"KAYAKALP 2.0_ BT renewal coat work from Prashant Thapak's house to Awadhesh Sharma's house in ward number 21.",
+"KAYAKALP 2.0_ Bt renewal coat work from ward number 20 Shriram Soni to Pratap Nagar Rasulia School.",
+"KAYAKALP 2.0_BT renewal coat work from Shivam Medical to Vathare's house.",
+"Cement Concrete Road from Sarafa Chowk to Rajghat Road_04",
+"Cement Concrete Road from Central Bank to Sethani Ghat Dwarkadish Mandir to Jhanda Chowk_02",
+"Bituminous Road from Jumerati Kali Mandir to Mangalwara Ghat_01",
+". Cement Concrete Road from Harda Road to Trenching Ground to B-Cabin Railway Fatak_05",
+"Cement Concrete Road Gwaltoli Railway Station to Pani Ki Tanki to Harda Road_03",
+"Cement Concrete Road from Balaganj Foota Kuwa to Dushera Maidan Sabji Bazar to Ankur Club_06"
+     
+   ],
+   "NAGAR PALIKA PIPARIYA":[
+    "KAYAKALP 2.0_ward of Pipariya Nagar Palika Parishad to Mudrawala Ji to CC. Road construction work.",
+"KAYAKALP 2.0_CC from Tehsil Complex Durga Temple in Indira Gandhi",
+"KAYAKALP 2.0_PNB in Tilak ward of Pipariya Nagar Palika Parishad CC from front of Government Ware House Road construction work.",
+"KAYAKALP 2.0_ Ward 2 from Yadav to Malgodam from Kanya Shala from Kanya Shala",
+"Cement Concrete Road from Shobha Road to Station Road_03",
+"Cement Concrete Road from Mandi Road to College Road_01",
+"Cement Concrete Road from Bhattar Ji Shop to Station Road_02"
+
+   ],
+   "NAGAR PALIKA SEONI MALWA":[
+   "KAYAKALP 2.0_ Patel Colony from SDM College",
+"KAYAKALP 2.0_Bashir Tulaiya to Main Road Ward 13-14",
+"KAYAKALP 2.0_Rahi Chowk to Veerasavarkar Complex",
+"KAYAKALP 2.0_ Bt Kot Sohanlal Marg Ward 13-14",
+"KAYAKALP 2.0_ Bt renewal coat in Bombay Aggarwal Bhavan Ward 11",
+"KAYAKALP 2.0_ Bt renewal coat from AHP site to Jail Road Ward 10",
+"KAYAKALP 2.0_cc road in Shaheed Patel Colony Ward 9",
+"KAYAKALP 2.0_ Bombay Agra route from Pooja Bag shop",
+"KAYAKALP 2.0_Neem tree from Chatarkheda Road ward 7",
+"KAYAKALP 2.0_Rambhosha to Narwar and Tulsiram Kushwaha to Narendra Chauhan Ward 7",
+"KAYAKALP 2.0_Gangaram Verma Ward 3 from Hard Dubey from Daiyat Baba",
+"KAYAKALP 2.0_Ward 2 from Yadav to Malgodam from Kanya Shala from Kanya Shala",
+"KAYAKALP 2.0_Railway station failed from Mohalla Ward 1",
+"BT WORK IN WARD No. 03 AT MAHAVEER MARG_02",
+"BT WORK FROM HARDA NARMADAPURAM ROAD TO SHIVALAYA MARG WARD 08_01",
+"BT AND CC WORK IN WARD 14 AT SAROWAR MARG_06",
+"BT AND CC WORK IN WARD 11,12,10 AND 13 AT SETH BADAMILAL MARG_03",
+"BT AND CC WORK IN WARD 09 FROM KALLU CHOUK TO HOSPITAL ROAD_05.",
+"BT AND CC WORK IN WARD 02 AT SARDAR RANJIT SINGH MARG_04"
+
+
+   ],
+   "NAGAR PARISHAD BANKHEDI":[
+    "KAYAKALP 2.0_CC road construction work from Bajaj showroom to bus stand in ward number 08-09",
+    "Cement Concrete Road in Ward no. 3 and 5 at Link Road Rahatwada"
+
+   ],
+   "NAGAR PARISHAD MAKHAN NAGAR":[
+    "KAYAKALP 2.0_Ward no. CC Road and RCC drain construction work from Main Road to Nasiraism Road in front of the hospital in 07.",
+"Cement Concrete Road from Mata Mandir to Hardaul baba to Main Road_03",
+"Cement Concrete Road from Bhagwati Yadav House to Main Road_02",
+"Cement Concrete Road from Lucky Kushwah House to Main Road_01"
+   ],
+
+   "NAGAR PARISHAD SUHAGPUR":[
+    "KAYAKALP 2.0_CC Road from Gautam Ward Mia Central Bank to Tirlok Sahu's house",
+"Betul road to bhimpur road (bypass) *01",
+"KAYAKALP 2.0* Ramganj Ward Mai Gulab Suryavanshi to Adarsh School Tech CC Road",
+".KAYAKALP 2.0_ CC Road from Rajendra Ward My Jain Temple to Mosque",
+"KAYAKALP 2.0_ CC Road to the end of the rest house to the end of the rest house",
+"CC Road Pipariya Road from Stadium towards Palakmati Bridge_2",
+"CC Road from Government Hospital to Raghuvanshi's shop._1"
+
+   ]
+   
+
+
+
+    
+
+  },
+  "roadTypes": [
+    "CONCRETE ROAD",
+    "BITUMINOUS ROAD"
+  ]
+}
