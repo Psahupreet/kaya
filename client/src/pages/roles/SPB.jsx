@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import API from '../../utils/api';
 import ImagePreviewModal from '../../components/ImagePreviewModal';
+import { resolveAssetUrl } from '../../utils/assets';
 
 export default function SPBPage() {
-  const fileBaseUrl = (import.meta.env.VITE_API_BASE || 'http://localhost:5000/api').replace(/\/api\/?$/, '');
   const [subs, setSubs] = useState([]);
   const [labs, setLabs] = useState([]);
   const [mySamples, setMySamples] = useState([]);
@@ -122,12 +122,12 @@ export default function SPBPage() {
                         <button
                           key={i}
                           type="button"
-                          onClick={() => setPreviewImageUrl(`${fileBaseUrl}${p}`)}
+                          onClick={() => setPreviewImageUrl(resolveAssetUrl(p, import.meta.env.VITE_API_BASE))}
                           className="overflow-hidden rounded-lg ring-1 ring-slate-200"
                           title="Click to view full image"
                         >
                           <img
-                            src={`${fileBaseUrl}${p}`}
+                            src={resolveAssetUrl(p, import.meta.env.VITE_API_BASE)}
                             alt="submission"
                             className="h-16 w-full cursor-zoom-in object-cover"
                             loading="lazy"
@@ -161,12 +161,12 @@ export default function SPBPage() {
                       <button
                         key={i}
                         type="button"
-                        onClick={() => setPreviewImageUrl(`${fileBaseUrl}${p}`)}
+                        onClick={() => setPreviewImageUrl(resolveAssetUrl(p, import.meta.env.VITE_API_BASE))}
                         className="overflow-hidden rounded-lg ring-1 ring-slate-200"
                         title="Click to view full image"
                       >
                         <img
-                          src={`${fileBaseUrl}${p}`}
+                          src={resolveAssetUrl(p, import.meta.env.VITE_API_BASE)}
                           alt="selected submission"
                           className="h-16 w-full cursor-zoom-in object-cover"
                           loading="lazy"
@@ -317,12 +317,12 @@ export default function SPBPage() {
                       <button
                         key={i}
                         type="button"
-                        onClick={() => setPreviewImageUrl(`${fileBaseUrl}${p}`)}
+                        onClick={() => setPreviewImageUrl(resolveAssetUrl(p, import.meta.env.VITE_API_BASE))}
                         className="overflow-hidden rounded-lg ring-1 ring-slate-200"
                         title="Click to view full image"
                       >
                         <img
-                          src={`${fileBaseUrl}${p}`}
+                          src={resolveAssetUrl(p, import.meta.env.VITE_API_BASE)}
                           alt="sample submission"
                           className="h-20 w-full cursor-zoom-in object-cover"
                           loading="lazy"

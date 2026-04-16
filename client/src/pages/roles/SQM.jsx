@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import API from '../../utils/api';
 import ImagePreviewModal from '../../components/ImagePreviewModal';
+import { resolveAssetUrl } from '../../utils/assets';
 
 const OTHER_PROJECT_VALUE = '__OTHER__';
 
 export default function SQMPage({ options, user }) {
-  const fileBaseUrl = (import.meta.env.VITE_API_BASE || 'http://localhost:5000/api').replace(/\/api\/?$/, '');
   const [form, setForm] = useState({
     division: '',
     district: '',
@@ -310,12 +310,12 @@ export default function SQMPage({ options, user }) {
                       <button
                         key={i}
                         type="button"
-                        onClick={() => setPreviewImageUrl(`${fileBaseUrl}${p}`)}
+                        onClick={() => setPreviewImageUrl(resolveAssetUrl(p, import.meta.env.VITE_API_BASE))}
                         className="overflow-hidden rounded-xl ring-1 ring-slate-200"
                         title="Click to view full image"
                       >
                         <img
-                          src={`${fileBaseUrl}${p}`}
+                          src={resolveAssetUrl(p, import.meta.env.VITE_API_BASE)}
                           alt="photo"
                           className="h-24 w-full cursor-zoom-in object-cover"
                           loading="lazy"
