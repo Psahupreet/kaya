@@ -8,7 +8,7 @@ const submissionSchema = new mongoose.Schema({
   urbanLocalBody: String,
   projectName: String,
   roadType: String,
-  photos: [String], // upload paths
+  photos: [String], // Cloudinary URLs
   status: { type: String, enum: ['submitted','assigned','in-lab','reported'], default: 'submitted' },
   assignedToSPB: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   createdAt: { type: Date, default: Date.now }

@@ -1,21 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const multer = require('multer');
 const Submission = require('../models/Submission');
 const { auth, permit } = require('../middleware/auth');
-const path = require('path');
-
-// configure multer
-const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, path.join(__dirname, '..', 'uploads', 'photos'));
-  },
-  filename: function (req, file, cb) {
-    const ext = path.extname(file.originalname);
-    cb(null, `${Date.now()}-${Math.round(Math.random() * 1e9)}${ext}`);
-  }
-});
-const upload = multer({ storage });
+const { photoUpload, handleUpload } = require('../config/upload');
 
 const SERIES_START = 900;
 
@@ -36,7 +23,7 @@ const getNextSeriesNumber = async () => {
 };
 
 // submit form (sqm)
-router.post('/submit', auth, permit('sqm'), upload.array('photos', 6), async (req, res) => {
+router.post('/submit', auth, permit('sqm'), handleUpload(photoUpload.array('photos', 6)), async (req, res) => {
   const { division, district, urbanLocalBody, projectName, roadType } = req.body;
   if (req.user?.assignedDivision && division !== req.user.assignedDivision) {
     return res.status(403).json({ error: `You can submit only for ${req.user.assignedDivision} division.` });
@@ -63,7 +50,7 @@ router.post('/submit', auth, permit('sqm'), upload.array('photos', 6), async (re
         urbanLocalBody,
         projectName: cleanProjectName,
         roadType,
-        photos: files.map((f) => `/uploads/photos/${f.filename}`)
+        photos: files.map((file) => file.path)
       });
       createdSubmission = await submission.save();
     } catch (err) {
