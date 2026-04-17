@@ -1,4 +1,4 @@
-// creates a default admin user (run once)
+// creates a default super admin user (run once)
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
@@ -7,15 +7,15 @@ const User = require('./models/User');
 
 async function seed() {
   await mongoose.connect(process.env.MONGO_URI);
-  const existing = await User.findOne({ username: 'admin' });
+  const existing = await User.findOne({ username: 'superadmin' });
   if (existing) {
-    console.log('Admin already exists');
+    console.log('Super admin already exists');
     process.exit(0);
   }
   const hash = await bcrypt.hash('admin123', 10);
-  const u = new User({ username: 'admin', passwordHash: hash, role: 'admin', name: 'Administrator' });
+  const u = new User({ username: 'superadmin', passwordHash: hash, role: 'super_admin', name: 'Super Administrator' });
   await u.save();
-  console.log('Admin created. username=admin password=admin123');
+  console.log('Super admin created. username=superadmin password=admin123');
   process.exit(0);
 }
 seed().catch(err => {

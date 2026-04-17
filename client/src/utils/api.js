@@ -1,7 +1,12 @@
 import axios from 'axios';
 
+const defaultApiBase =
+  import.meta.env.DEV
+    ? 'http://localhost:5000/api'
+    : 'https://kaya-lyb0.onrender.com/api';
+
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE || 'https://kaya-lyb0.onrender.com/api'
+  baseURL: import.meta.env.VITE_API_BASE || defaultApiBase
 });
 
 export const setToken = (token) => {

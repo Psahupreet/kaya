@@ -28,11 +28,17 @@ router.post('/login', async (req, res) => {
 });
 
 // create user (only admin)
-router.post('/create-user', auth, permit('admin'), async (req, res) => {
+router.post('/create-user', auth, permit('admin', 'super_admin'), async (req, res) => {
   const { username, password, role, name, assignedDivision } = req.body;
   if (!username || !password || !role) return res.status(400).json({ error: 'Missing fields' });
   if (role === 'sqm' && !assignedDivision) {
     return res.status(400).json({ error: 'Assigned division is required for SQM user.' });
+  }
+  if (!['super_admin', 'admin', 'sqm', 'spb', 'lab'].includes(role)) {
+    return res.status(400).json({ error: 'Invalid role.' });
+  }
+  if (req.user.role !== 'super_admin' && role === 'super_admin') {
+    return res.status(403).json({ error: 'Only super admin can create another super admin.' });
   }
   const salt = await bcrypt.genSalt(10);
   const hash = await bcrypt.hash(password, salt);

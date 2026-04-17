@@ -8,6 +8,7 @@
     "seed-admin": "node src/seedAdmin.js",
     "migrate:submission-photos": "node src/scripts/migrateSubmissionPhotosToCloudinary.js",
     "migrate:submission-photos:dry": "node src/scripts/migrateSubmissionPhotosToCloudinary.js --dry-run",
+    "reset-user-password": "node src/scripts/resetUserPassword.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

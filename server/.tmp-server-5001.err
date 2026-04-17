@@ -1,0 +1,78 @@
+=5001 : The term '=5001' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ='5001'; ='development'; ='mongodb+srv://k28097309_db_user:hOUi7WLuTI ...
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=5001:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+=development : The term '=development' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:10
++ ='5001'; ='development'; ='mongodb+srv://k28097309_db_user:hOUi7WLuTI ...
++          ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=development:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+=mongodb+srv://k28097309_db_user:hOUi7WLuTIoiQG87@cluster0.lgyzoxw.mongodb.net/kayakalp?retryWrites=true&w=majority&app
+Name=Cluster0 : The term '=mongodb+srv://k28097309_db_user:hOUi7WLuTIoiQG87@cluster0.lgyzoxw.mongodb.net/kayakalp?retry
+Writes=true&w=majority&appName=Cluster0' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:26
++ ... velopment'; ='mongodb+srv://k28097309_db_user:hOUi7WLuTIoiQG87@cluste ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=mongodb+srv://...ppName=Cluster0:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+=kayakalp : The term '=kayakalp' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:162
++ ... lp?retryWrites=true&w=majority&appName=Cluster0'; ='kayakalp'; ='Aeyy ...
++                                                       ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=kayakalp:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+=AeyyUoqWU5i29fKp : The term '=AeyyUoqWU5i29fKp' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:175
++ ... =majority&appName=Cluster0'; ='kayakalp'; ='AeyyUoqWU5i29fKp'; ='http ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=AeyyUoqWU5i29fKp:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+=http://localhost:5173 : The term '=http://localhost:5173' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:196
++ ... '; ='kayakalp'; ='AeyyUoqWU5i29fKp'; ='http://localhost:5173'; ='dnds ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=http://localhost:5173:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+=dnds1f8jd : The term '=dnds1f8jd' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:222
++ ... ; ='AeyyUoqWU5i29fKp'; ='http://localhost:5173'; ='dnds1f8jd'; ='6393 ...
++                                                      ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=dnds1f8jd:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+=639327668985585 : The term '=639327668985585' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:236
++ ... '; ='http://localhost:5173'; ='dnds1f8jd'; ='639327668985585'; ='cTdu ...
++                                                ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=639327668985585:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+=cTduxEkVS8_QN9E1OeXhg5-tYhA : The term '=cTduxEkVS8_QN9E1OeXhg5-tYhA' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:256
++ ... nds1f8jd'; ='639327668985585'; ='cTduxEkVS8_QN9E1OeXhg5-tYhA'; Set-Lo ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=cTduxEkVS8_QN9E1OeXhg5-tYhA:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

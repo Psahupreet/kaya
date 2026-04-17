@@ -82,12 +82,20 @@ app.use(
 // ======================
 // 🚦 RATE LIMITING
 // ======================
-const limiter = rateLimit({
+const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 100,
+  max: 30,
+  message: 'Too many authentication requests, please try again later.'
+});
+
+const apiLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 1000,
+  skip: (req) => req.path.startsWith('/auth'),
   message: 'Too many requests, please try again later.'
 });
-app.use('/api', limiter);
+app.use('/api/auth', authLimiter);
+app.use('/api', apiLimiter);
 
 // ======================
 // ⚡ PERFORMANCE

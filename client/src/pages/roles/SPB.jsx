@@ -7,6 +7,8 @@ export default function SPBPage() {
   const [subs, setSubs] = useState([]);
   const [labs, setLabs] = useState([]);
   const [mySamples, setMySamples] = useState([]);
+  const [nextPreferredLabId, setNextPreferredLabId] = useState('');
+  const [nextPreferredLabUsername, setNextPreferredLabUsername] = useState('');
   const [selected, setSelected] = useState(null);
   const [sampleForm, setSampleForm] = useState({ thickness:'', numberOfCores:'', strength:'', diameter:'', labId: '' });
   const [message, setMessage] = useState('');
@@ -22,7 +24,9 @@ export default function SPBPage() {
       const r1 = await API.get('/spb/submissions');
       setSubs(r1.data);
       const r2 = await API.get('/spb/labs');
-      setLabs(r2.data);
+      setLabs(r2.data?.labs || []);
+      setNextPreferredLabId(r2.data?.nextPreferredLabId || '');
+      setNextPreferredLabUsername(r2.data?.nextPreferredLabUsername || '');
       const r3 = await API.get('/spb/samples');
       setMySamples(r3.data);
     } catch (e) {
@@ -34,7 +38,13 @@ export default function SPBPage() {
     setSelected(sub);
     setMessage('');
     setFormError('');
-    setSampleForm({ thickness:'', numberOfCores:'', strength:'', diameter:'', labId: labs[0]?._id || '' });
+    setSampleForm({
+      thickness:'',
+      numberOfCores:'',
+      strength:'',
+      diameter:'',
+      labId: nextPreferredLabId || labs[0]?._id || ''
+    });
   };
 
   const isSafeText = (value) => {
@@ -65,7 +75,8 @@ export default function SPBPage() {
         strength: sampleForm.strength,
         diameter: sampleForm.diameter
       });
-      setMessage('Assigned');
+      const assignedLab = labs.find((lab) => lab._id === sampleForm.labId);
+      setMessage(`Assigned to ${assignedLab?.name || assignedLab?.username || 'selected lab'}`);
       setSelected(null);
       fetchData();
     } catch (err) {
@@ -193,6 +204,11 @@ export default function SPBPage() {
                 </select>
                 {labs.length === 0 && (
                   <div className="mt-1 text-xs text-amber-700">No labs found. Create lab users first.</div>
+                )}
+                {nextPreferredLabUsername && (
+                  <div className="mt-1 text-xs text-emerald-700">
+                    Next alternating lab: {nextPreferredLabUsername}
+                  </div>
                 )}
               </label>
 

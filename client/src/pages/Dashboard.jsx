@@ -42,7 +42,7 @@ export default function Dashboard() {
         {user?.role === 'sqm' && <SQMPage options={options} user={user} />}
         {user?.role === 'spb' && <SPBPage options={options} />}
         {user?.role === 'lab' && <LabPage options={options} />}
-        {user?.role === 'admin' && <AdminPage options={options} />}
+        {(user?.role === 'admin' || user?.role === 'super_admin') && <AdminPage options={options} user={user} />}
         {!user?.role && (
           <div className="rounded-2xl border border-slate-200 bg-white p-6 text-sm text-slate-600 shadow-sm">
             Unable to determine your role.
